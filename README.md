@@ -1,7 +1,7 @@
 # grub2-tweaks
 
 # 📚 Topics
-- [**Setting GRUB display resolution**](https://github.com/vandalsoul/grub-tweaks/blob/main/README.md#%EF%B8%8F-setting-grub-display-resolution)
+- [**Setting GRUB display resolution**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
 - [**Using a custom background**](https://github.com/vandalsoul/grub-tweaks/blob/main/README.md#%EF%B8%8F-using-a-custom-background)
 
 ## 🖥️ Setting GRUB display resolution
