@@ -9,6 +9,10 @@
   </a>
 </p>
 
+<p align="center">
+  <b>Anyone who wish to contribute new ideas / tweaks are always welcome to do so... Let's make this page as complete as possible</b>
+</p>
+
 # 📚 Topics
 - [**Setting GRUB display resolution**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
 - [**Using a custom background**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-using-a-custom-background)
