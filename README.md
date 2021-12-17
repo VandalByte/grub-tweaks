@@ -6,19 +6,26 @@
 
 ### 🖥️ Setting GRUB display resolution
 
-When the grub screen pops up press `c` to enter the command line
+- When the grub screen pops up press `c` to enter the command line
 
-Then enter **`vbeinfo`** or **`videoinfo`** to check available resolutions
+- Then enter **`vbeinfo`** or **`videoinfo`** to check available resolutions
  
-Open the file `/etc/default/grub` and edit the line **`GRUB_GFXMODE=[height]x[width]x32`** to match your resolution
+- Open the file `/etc/default/grub` and edit the line **`GRUB_GFXMODE=[height]x[width]x32`** to match your resolution
 
-Finally, run grub-mkconfig -o /boot/grub/grub.cfg to update your grub config
+- Finally, run grub-mkconfig -o /boot/grub/grub.cfg to update your grub config
 
 ### 🖌️ Using a custom background
 
-Make sure you have imagemagick installed, or at least something that provides convert
-Find the resolution of your display, and make sure your background matches the resolution
-(1920x1080 -> --1080p, 2560x1080 -> --ultrawide, 2560x1440 -> --2k, 3440x1440 -> --ultrawide2k, 3840x2160 -> --4k)
-Place your custom background inside the root of the project, and name it background.jpg
-Run the installer like normal, but with -s [YOUR_RESOLUTION] and -t [THEME] and -i [ICON]
-Make sure to replace [YOUR_RESOLUTION] with your resolution and [THEME] with the theme
+- Make sure you have your background match any of the following resolution
+
+|Class|Resolution (in pixels)|
+|:------:|:--------:|
+|1080p|1920 x 1080|
+|Ultrawide|2560 x 1080|
+|2K|2560 x 1440|
+|Ultrawide 2K|3440 x 1440|
+|4K|3840 x 2160|
+
+- Place the background image inside the GRUB theme root folder
+- Rename it as `background.jpg` or `background.png` **(** *the image extension must be same as in `theme.txt`* **)**
+
