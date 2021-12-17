@@ -1,4 +1,13 @@
-# grub2-tweaks
+![logo](/media/banner.png)
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/vandalsoul/dedsec-grub2-theme/main/LICENSE">
+    <img src="https://img.shields.io/badge/License%20MIT-008a8a?style=for-the-badge&logo=github&logoColor=000000" alt="license" />
+  </a>
+  <a href="https://www.buymeacoffee.com/vandalsoul">
+    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-d4b700?style=for-the-badge&logo=buymeacoffee&logoColor=000000" alt="license" />
+  </a>
+</p>
 
 # 📚 Topics
 - [**Setting GRUB display resolution**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
