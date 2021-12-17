@@ -1,4 +1,4 @@
-![logo](/media/m.png)
+![logo](/media/mark.png)
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/LICENSE">
