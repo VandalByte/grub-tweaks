@@ -24,12 +24,10 @@
 
 ## 🖌️ Using a custom background
 
-1️⃣ **Make sure you have your background match any of the following resolution**
+1️⃣ **Make sure to have your background match any of the following resolution**
 
 |Class|Resolution ( in pixels )|
 |:------:|:--------:|
-|HD|1280 x 720|
-|HD|1366 x 768|
 |1080p|1920 x 1080|
 |Ultrawide|2560 x 1080|
 |2K|2560 x 1440|
@@ -38,5 +36,5 @@
 
 2️⃣ **Place the background image inside the GRUB theme root folder**
 
-3️⃣ **Rename it as `background.jpg` or `background.png` ( *the image extension must be same as in `theme.txt`* )**
+3️⃣ **Rename it as `background.jpg` or `background.png` (** *the image extension must be same as in `theme.txt`* **)**
 
