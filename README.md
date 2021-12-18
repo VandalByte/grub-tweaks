@@ -1,4 +1,4 @@
-![logo](/media/mark.png)
+![logo](/media/banner.png)
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/LICENSE">
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <b>Anyone who wish to contribute new ideas / tweaks are always welcome to do so... Let's make this page as complete as possible</b>
+  <b>Anyone 🙋 who wish to contribute new ideas 🧠 / tweaks 💡 are always welcome to do so... Let's make this page as complete as possible 😄</b>
 </p>
 
 # 📚 Topics
