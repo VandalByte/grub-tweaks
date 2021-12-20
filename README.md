@@ -10,12 +10,14 @@
 </p>
 
 <p align="center">
-  <b>Anyone 🙋 who wish to contribute new ideas 🧠 / tweaks 💡 are always welcome to do so... Let's make this page as complete as possible 😄</b>
+  <b>Hey there 🙋, if anyone wish to contribute new ideas 🧠 / tweaks 💡 you are always welcome to do so... Let's make this page as complete as possible 😄</b>
 </p>
 
 # 📚 Topics
 - [**Setting GRUB display resolution**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
 - [**Using a custom background**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-using-a-custom-background)
+- **Adding icons for Submenus**
+- **Setting up GRUB theme in Kali Linux**
 
 ## 🖥️ Setting GRUB display resolution
 
@@ -50,4 +52,8 @@
 ◻️ **Place the background image inside the GRUB theme root folder**
 
 ◻️ **Rename it as `background.jpg` or `background.png` (** *the image extension must be same as in `theme.txt`* **)**
+
+## 🔮 Adding icons for Submenus
+
+## 🐲 Setting up GRUB theme in Kali Linux
 
