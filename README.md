@@ -16,8 +16,8 @@
 # 📚 Topics
 - [**Setting GRUB display resolution**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
 - [**Using a custom background**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-using-a-custom-background)
-- **Adding icons for Submenus**
-- **Setting up GRUB theme in Kali Linux**
+- [**Adding icons for Submenus**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-adding-icons-for-submenus)
+- [**Setting up GRUB theme in Kali Linux**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-using-a-custom-background)
 
 ## 🖥️ Setting GRUB display resolution
 
