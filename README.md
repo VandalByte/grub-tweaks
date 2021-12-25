@@ -55,6 +55,7 @@
 ◻️ **Rename it as `background.jpg` or `background.png` (** *the image extension must be same as in `theme.txt`* **)**
 
 ## 🔮 Adding icons for Submenus
+**💠 CREDITS ~$ [@Brookg](https://github.com/Brookg)**
 
 **🚨 Make sure to make a backup of the following files just to be on the safe side 😶 ...**
 
