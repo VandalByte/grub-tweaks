@@ -56,6 +56,8 @@
 
 ## 🔮 Adding icons for Submenus
 
+**Make sure you make a backup of the following files incase something goes wrong...**
+
 ◻️ **First navigate to `/etc/grub.d/`**
 ```shell
 cd /etc/grub.d/
