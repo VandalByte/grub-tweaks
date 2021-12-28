@@ -59,10 +59,7 @@
 
 **🚨 NOTE 🚨 *Make sure to make a backup of the following files just to be on the safe side* 😶**
 
-◻️ **First navigate to `/etc/grub.d/`**
-```shell
-cd /etc/grub.d/
-```
+◻️ **First navigate to path `/etc/grub.d/`**
 
 <br>
 
@@ -102,4 +99,12 @@ menuentry '$LABEL' --class efi \$menuentry_id_option 'uefi-firmware' {
 *Writing soon...*
 ***
 ## 🎩 GRUB theme not showing up ( fix for Fedora )
-*Writing soon...*
+
+◻️ **Edit the GRUB config file `/etc/default/grub`**
+```shell
+sudo nano /etc/default/grub
+```
+
+◻️ **Change the line `GRUB_TERMINAL_OUTPUT=console` to this ( ie *comment it out* ) `#GRUB_TERMINAL_OUTPUT=console`**
+
+◻️ **Then save the file and restart your pc**
