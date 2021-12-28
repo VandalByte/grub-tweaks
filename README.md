@@ -14,9 +14,10 @@
 </p>
 
 # 📚 Topics
+
 - [**Setting GRUB display resolution**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
 - [**Using a custom background**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-using-a-custom-background)
-- [**Adding icons for Submenus**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-adding-icons-for-submenus)
+- [**Adding icons for Submenus**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-adding-icons-for-submenus) **💟 Credits [@Brookg](https://github.com/Brookg)**
 - [**Setting up GRUB theme in Kali Linux**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-up-grub-theme-in-kali-linux)
 - [**GRUB theme not showing up ( fix for Fedora )**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-fix-for-grub-theme-not-showing-up--in-fedora-)
 
@@ -55,9 +56,8 @@
 ◻️ **Rename it as `background.jpg` or `background.png` (** *the image extension must be same as in `theme.txt`* **)**
 
 ## 🔮 Adding icons for Submenus
-**💠 CREDITS ~$ [@Brookg](https://github.com/Brookg)**
 
-**🚨 Make sure to make a backup of the following files just to be on the safe side 😶 ...**
+**🚨 NOTE : *Make sure to make a backup of the following files just to be on the safe side* 😶**
 
 ◻️ **First navigate to `/etc/grub.d/`**
 ```shell
@@ -99,6 +99,7 @@ menuentry '$LABEL' --class efi \$menuentry_id_option 'uefi-firmware' {
   ```
 
 ## 🐲 Setting up GRUB theme in Kali Linux
+*Writing soon...*
 
-## 🎍 Fix for GRUB theme not showing up ( in Fedora )
-
+## 🎍 GRUB theme not showing up ( fix for Fedora )
+*Writing soon...*
