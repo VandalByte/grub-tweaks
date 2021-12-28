@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <b>Hey there 🙋, if anyone wish to contribute new ideas 🧠 / tweaks 💡 you are always welcome to do so... Let's make this page as complete as possible 😄</b>
+  <b>🙋 Hey there, if anyone wish to contribute new ideas 🧠 / tweaks 💡 you are always welcome to do so... Let's make this page as complete as possible 😄</b>
 </p>
 
 # 📚 Topics
@@ -57,7 +57,7 @@
 ***
 ## 🔮 Adding icons for Submenus
 
-**🚨 NOTE : *Make sure to make a backup of the following files just to be on the safe side* 😶**
+**🚨 NOTE 🚨 *Make sure to make a backup of the following files just to be on the safe side* 😶**
 
 ◻️ **First navigate to `/etc/grub.d/`**
 ```shell
@@ -101,5 +101,5 @@ menuentry '$LABEL' --class efi \$menuentry_id_option 'uefi-firmware' {
 ## 🐲 Setting up GRUB theme in Kali Linux
 *Writing soon...*
 ***
-## 🎍 GRUB theme not showing up ( fix for Fedora )
+## 🎩 GRUB theme not showing up ( fix for Fedora )
 *Writing soon...*
