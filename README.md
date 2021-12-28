@@ -10,12 +10,16 @@
 </p>
 
 <p align="center">
-  <b>Anyone 🙋 who wish to contribute new ideas 🧠 / tweaks 💡 are always welcome to do so... Let's make this page as complete as possible 😄</b>
+  <b>Hey there 🙋, if anyone wish to contribute new ideas 🧠 / tweaks 💡 you are always welcome to do so... Let's make this page as complete as possible 😄</b>
 </p>
 
 # 📚 Topics
+
 - [**Setting GRUB display resolution**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
 - [**Using a custom background**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-using-a-custom-background)
+- [**Adding icons for Submenus**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-adding-icons-for-submenus) **💟 Credits [@Brookg](https://github.com/Brookg)**
+- [**Setting up GRUB theme in Kali Linux**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-up-grub-theme-in-kali-linux)
+- [**GRUB theme not showing up ( fix for Fedora )**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-fix-for-grub-theme-not-showing-up--in-fedora-)
 
 ## 🖥️ Setting GRUB display resolution
 
@@ -51,3 +55,51 @@
 
 ◻️ **Rename it as `background.jpg` or `background.png` (** *the image extension must be same as in `theme.txt`* **)**
 
+## 🔮 Adding icons for Submenus
+
+**🚨 NOTE : *Make sure to make a backup of the following files just to be on the safe side* 😶**
+
+◻️ **First navigate to `/etc/grub.d/`**
+```shell
+cd /etc/grub.d/
+```
+
+<br>
+
+◻️ **Edit the file `10_linux` then find and change the line,**
+```shell
+echo "submenu '$(gettext_printf "Advanced options for %s" "${OS}" | grub_quote)' \$menuentry_id_option 'gnulinux-advanced-$boot_device_id' {"
+```
+**to**
+```shell
+echo "submenu '$(gettext_printf "Advanced options for %s" "${OS}" | grub_quote)' --class submenu \$menuentry_id_option 'gnulinux-advanced-$boot_device_id' {"
+```
+
+<br>
+
+◻️ **Next edit the file `30_uefi-firmware` then find and change the line,**
+```shell
+menuentry '$LABEL' \$menuentry_id_option 'uefi-firmware' {
+```
+**to**
+```shell
+menuentry '$LABEL' --class efi \$menuentry_id_option 'uefi-firmware' {
+```
+
+<br>
+
+◻️ **Finally, update your grub config file**
+- **Debian ⛔ Ubuntu ⛔ Arch**
+  ```shell
+  sudo grub-mkconfig -o /boot/grub/grub.cfg
+  ```
+- **Fedora ⛔ Redhat**
+  ```shell
+  sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+  ```
+
+## 🐲 Setting up GRUB theme in Kali Linux
+*Writing soon...*
+
+## 🎍 GRUB theme not showing up ( fix for Fedora )
+*Writing soon...*
