@@ -38,7 +38,7 @@
   ```shell
   sudo grub2-mkconfig -o /boot/grub2/grub.cfg
   ```
-
+***
 ## 🖌️ Using a custom background
 
 ◻️ **Make sure to have your background match any of the following resolution**
@@ -54,7 +54,7 @@
 ◻️ **Place the background image inside the GRUB theme root folder**
 
 ◻️ **Rename it as `background.jpg` or `background.png` (** *the image extension must be same as in `theme.txt`* **)**
-
+***
 ## 🔮 Adding icons for Submenus
 
 **🚨 NOTE : *Make sure to make a backup of the following files just to be on the safe side* 😶**
@@ -97,9 +97,9 @@ menuentry '$LABEL' --class efi \$menuentry_id_option 'uefi-firmware' {
   ```shell
   sudo grub2-mkconfig -o /boot/grub2/grub.cfg
   ```
-
+***
 ## 🐲 Setting up GRUB theme in Kali Linux
 *Writing soon...*
-
+***
 ## 🎍 GRUB theme not showing up ( fix for Fedora )
 *Writing soon...*
