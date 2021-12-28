@@ -17,7 +17,7 @@
 
 - [**Setting GRUB display resolution**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
 - [**Using a custom background**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-using-a-custom-background)
-- [**Adding icons for Submenus**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-adding-icons-for-submenus) **💟 Credits [@Brookg](https://github.com/Brookg)**
+- [**Adding icons for Submenus**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-adding-icons-for-submenus) **💟 Credits @Brookg**
 - [**Setting up GRUB theme in Kali Linux**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-up-grub-theme-in-kali-linux)
 - [**GRUB theme not showing up ( fix for Fedora )**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-fix-for-grub-theme-not-showing-up--in-fedora-)
 
