@@ -20,7 +20,7 @@
 - [**Adding icons for Submenus**](https://github.com/vandalsoul/grub-tweaks#-adding-icons-for-submenus) **💟 Credits @Brookg**
 - [**Setting up GRUB theme in Kali Linux**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-theme-in-kali-linux)
 - [**GRUB theme not showing up ( fix for Fedora )**](https://github.com/vandalsoul/grub-tweaks#-grub-theme-not-showing-up--fix-for-fedora-)
-
+***
 ## 🖥️ Setting GRUB display resolution
 
 ◻️ **When the grub screen pops up press `c` to enter the command line**
@@ -105,6 +105,6 @@ menuentry '$LABEL' --class efi \$menuentry_id_option 'uefi-firmware' {
 sudo nano /etc/default/grub
 ```
 
-◻️ **Change the line `GRUB_TERMINAL_OUTPUT=console` to this ( ie *comment it out* ) `#GRUB_TERMINAL_OUTPUT=console`**
+◻️ **Change the line `GRUB_TERMINAL_OUTPUT=console` to this (*ie comment it out*) `#GRUB_TERMINAL_OUTPUT=console`**
 
 ◻️ **Then save the file and restart your pc**
