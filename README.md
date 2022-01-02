@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <b>🙋 Hey there, if anyone wish to contribute new ideas 🧠 / tweaks 💡 you are always welcome to do so... Let's make this page as complete as possible 😄</b>
+  <b>🙋 Hey there, if anyone wish to contribute new tweak-scripts 📝 / tweak-ideas ✨ you are always welcome to do so... Let's make this page as complete as possible 😄</b>
 </p>
 
 # 📚 Topics
@@ -19,13 +19,14 @@
 - [**Using a custom background**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-using-a-custom-background)
 - [**Adding icons for Submenus**](https://github.com/vandalsoul/grub-tweaks#-adding-icons-for-submenus) **💟 Credits @Brookg**
 - [**Setting up GRUB theme in Kali Linux**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-theme-in-kali-linux)
-- [**GRUB theme not showing up ( fix for Fedora )**](https://github.com/vandalsoul/grub-tweaks#-grub-theme-not-showing-up--fix-for-fedora-)
+- [**GRUB theme not showing up**](https://github.com/vandalsoul/grub-tweaks#-grub-theme-not-showing-up--fix-for-fedora-) **( fix for Fedora )**
 ***
 ## 🖥️ Setting GRUB display resolution
 
-◻️ **When the grub screen pops up press `c` to enter the command line**
-
-◻️ **Then enter **`vbeinfo`** or **`videoinfo`** to check available resolutions**
+◻️ **First type this and press enter to find your screen resolution**
+```shell
+xdpyinfo | awk '/dimensions/{print $2}'
+```
  
 ◻️ **Open the file `/etc/default/grub` and edit the line `GRUB_GFXMODE=[height]x[width]x32` to match your resolution**
 
