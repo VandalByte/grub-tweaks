@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <b>🙋 Hey there, if anyone wish to contribute new tweak-scripts 📝 / tweak-ideas ✨ you are always welcome to do so... Let's make this page as complete as possible 😄</b>
+  <b>🙋 Hey there, if anyone wish to contribute new tweak-scripts 📝 / tweak-ideas ✨ then you are always welcome to do so 😄</b>
 </p>
 
 # 📚 Topics
