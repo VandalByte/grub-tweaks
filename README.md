@@ -66,8 +66,6 @@ xdpyinfo | awk '/dimensions/{print $2}'
 
 ◻️ **First navigate to path `/etc/grub.d/`**
 
-<br>
-
 ◻️ **Edit the file `10_linux` then find and change the line,**
 ```shell
 echo "submenu '$(gettext_printf "Advanced options for %s" "${OS}" | grub_quote)' \$menuentry_id_option 'gnulinux-advanced-$boot_device_id' {"
