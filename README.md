@@ -58,7 +58,11 @@ xdpyinfo | awk '/dimensions/{print $2}'
 ***
 ## 🔮 Adding icons for Submenus
 
-**🚨 NOTE 🚨 *Make sure to make a backup of the following files just to be on the safe side* 😶**
+**( NOTE ) 🚨 *Make sure to make a backup of the following files just to be on the safe side* 😶**
+
+<p align="left">
+  <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/submenu.png" alt="license" />
+</p>
 
 ◻️ **First navigate to path `/etc/grub.d/`**
 
