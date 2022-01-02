@@ -75,13 +75,32 @@ echo "submenu '$(gettext_printf "Advanced options for %s" "${OS}" | grub_quote)'
 
 <br>
 
-◻️ **Next edit the file `30_uefi-firmware` then find and change the line,**
+◻️ **Edit the file `30_uefi-firmware` then find and change the line,**
 ```shell
 menuentry '$LABEL' \$menuentry_id_option 'uefi-firmware' {
 ```
 **to**
 ```shell
 menuentry '$LABEL' --class efi \$menuentry_id_option 'uefi-firmware' {
+```
+
+<br>
+
+◻️ **Edit the file `20_memtest86+` then find and change the line,**
+```shell
+menuentry "Memory test (memtest86+)" {
+```
+**to**
+```shell
+menuentry --class memtest "Memory test (memtest86+)" {
+```
+**And the line,**
+```shell
+menuentry "Memory Test (64-bit UEFI)" {
+```
+**to**
+```shell
+menuentry --class memtest "Memory Test (64-bit UEFI)" {
 ```
 
 <br>
