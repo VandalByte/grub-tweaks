@@ -11,6 +11,8 @@
 
 <p align="center">
   <b>🙋 Hey there, if anyone wish to contribute new tweak-scripts 📝 / tweak-ideas ✨ then you are always welcome to do so 😄</b>
+  <br>
+  <b>Also if you found this page useful please give it a ⭐
 </p>
 
 # 📚 Topics
