@@ -21,7 +21,7 @@
 - [**Using a custom background**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-using-a-custom-background)
 - [**Adding icons for Submenus**](https://github.com/vandalsoul/grub-tweaks#-adding-icons-for-submenus) **💟 Credits @Brookg**
 - [**Setting up GRUB theme in Kali Linux**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-theme-in-kali-linux)
-- [**GRUB theme not showing up**](https://github.com/vandalsoul/grub-tweaks#-grub-theme-not-showing-up--fix-for-fedora-) **( fix for Fedora )**
+- [**Fix for GRUB theme not showing up**](https://github.com/vandalsoul/grub-tweaks#-grub-theme-not-showing-up--fix-for-fedora-) **( Fedora, Ubuntu )**
 ***
 ## 🖥️ Setting GRUB display resolution
 
@@ -122,7 +122,7 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 ## 🐲 Setting up GRUB theme in Kali Linux
 *Writing soon...*
 ***
-## 🎩 GRUB theme not showing up ( fix for Fedora )
+## 🎩 Fix for GRUB theme not showing up ( Fedora, Ubuntu )
 
 ◻️ **Edit the GRUB config file `/etc/default/grub`**
 ```shell
@@ -130,5 +130,7 @@ sudo nano /etc/default/grub
 ```
 
 ◻️ **Change the line `GRUB_TERMINAL_OUTPUT=console` to this (*ie comment it out*) `#GRUB_TERMINAL_OUTPUT=console`**
+
+◻️ **Change the line `GRUB_TIMEOUT_STYLE="hidden"` to this (*ie comment it out*) `#GRUB_TIMEOUT_STYLE="hidden"`**
 
 ◻️ **Then save the file and restart your pc**
