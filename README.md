@@ -54,13 +54,13 @@ xdpyinfo | awk '/dimensions/{print $2}'
 |Ultrawide 2K|3440 x 1440|
 |4K|3840 x 2160|
 
-◻️ **Place the background image inside the GRUB theme root folder**
+◻️ **Place the background image inside the GRUB theme root directory `/boot/grub/themes/THEME-DIRECTORY`**
 
 ◻️ **Rename it as `background.jpg` or `background.png` (** *the image extension must be same as in `theme.txt`* **)**
 ***
 ## 🔮 Adding icons for Submenus
 
-**( NOTE ) 🚨 *Make sure to make a backup of the following files just to be on the safe side* 😶**
+> **( NOTE ) 🚨 *Make sure to make a backup of the following files just to be on the safe side* 😶**
 
 <p align="left">
   <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/submenu.png" alt="license" />
