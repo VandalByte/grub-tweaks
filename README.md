@@ -25,7 +25,7 @@
 ***
 ## 🖥️ Setting GRUB display resolution
 
-◻️ **First type this and press enter to find your screen resolution**
+◻️ **First find your screen resolution**
 ```shell
 xdpyinfo | awk '/dimensions/{print $2}'
 ```
