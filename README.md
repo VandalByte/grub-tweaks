@@ -137,3 +137,19 @@ sudo nano /etc/default/grub
 ◻️ **Then save the file and restart your pc**
 
 ## 🎶 Setting up GRUB init tunes
+
+◻️ **Edit the GRUB config file `/etc/default/grub`**
+
+◻️ **Uncomment the line `GRUB_INIT_TUNE="480 440 1"`**
+
+◻️ **Now if you want you can keep the default tune or else use one from the cheatsheet**
+
+◻️ **Finally, update your grub config file**
+- **Debian ⛔ Ubuntu ⛔ Arch**
+  ```shell
+  sudo grub-mkconfig -o /boot/grub/grub.cfg
+  ```
+- **Fedora ⛔ Redhat**
+  ```shell
+  sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+  ```
