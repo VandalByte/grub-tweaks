@@ -140,7 +140,7 @@ sudo nano /etc/default/grub
 
 ◻️ **Edit the GRUB config file `/etc/default/grub`**
 
-◻️ **Uncomment the line `GRUB_INIT_TUNE="480 440 1"`**
+◻️ **Uncomment the line `#GRUB_INIT_TUNE="480 440 1"`**
 
 ◻️ **Now if you want you can keep the default tune or else use one from the cheatsheet**
 
