@@ -22,6 +22,7 @@
 - [**Adding icons for Submenus**](https://github.com/vandalsoul/grub-tweaks#-adding-icons-for-submenus) **💟 Credits @Brookg**
 - [**Setting up GRUB theme in Kali Linux**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-theme-in-kali-linux)
 - [**Fix for GRUB theme not showing up**](https://github.com/vandalsoul/grub-tweaks#-grub-theme-not-showing-up--fix-for-fedora-) **( Fedora, Ubuntu )**
+- Setting up GRUB init tunes
 ***
 ## 🖥️ Setting GRUB display resolution
 
@@ -134,3 +135,21 @@ sudo nano /etc/default/grub
 ◻️ **Change the line `GRUB_TIMEOUT_STYLE="hidden"` to this (*ie comment it out*) `#GRUB_TIMEOUT_STYLE="hidden"`**
 
 ◻️ **Then save the file and restart your pc**
+
+## 🎶 Setting up GRUB init tunes
+
+◻️ **Edit the GRUB config file `/etc/default/grub`**
+
+◻️ **Uncomment the line `#GRUB_INIT_TUNE="480 440 1"`**
+
+◻️ **Now if you want you can keep the default tune or else use one from the cheatsheet**
+
+◻️ **Finally, update your grub config file**
+- **Debian ⛔ Ubuntu ⛔ Arch**
+  ```shell
+  sudo grub-mkconfig -o /boot/grub/grub.cfg
+  ```
+- **Fedora ⛔ Redhat**
+  ```shell
+  sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+  ```
