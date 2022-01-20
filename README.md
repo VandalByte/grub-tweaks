@@ -142,7 +142,7 @@ sudo nano /etc/default/grub
 
 ◻️ **Uncomment the line `#GRUB_INIT_TUNE="480 440 1"`**
 
-◻️ **Now if you want you can keep the default tune or else use one from the cheatsheet**
+◻️ **Now if you want you can keep the default tune or else use one from the [cheatsheet](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md)**
 
 ◻️ **Finally, update your grub config file**
 - **Debian ⛔ Ubuntu ⛔ Arch**
