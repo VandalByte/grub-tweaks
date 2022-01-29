@@ -1,6 +1,6 @@
 # GRUB INIT-TUNES CHEATSHEET
 
-**🔗 GRUB_INIT_TUNE  format :**
+**⚙️ GRUB_INIT_TUNE  format :**
 ```
 tempo freq duration [freq duration freq duration...]
 ```
