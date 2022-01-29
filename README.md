@@ -144,6 +144,10 @@ sudo nano /etc/default/grub
 
 ◻️ **Now if you want you can keep the default tune or else use one from the [cheatsheet](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md)**
 
+> 📢 *Just remember, longer the tune longer the boot time*
+
+> 📢 *Music composers are also welcome to contribute in the cheatsheet*
+
 ◻️ **Finally, update your grub config file**
 - **Debian ⛔ Ubuntu ⛔ Arch**
   ```shell
