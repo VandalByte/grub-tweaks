@@ -138,7 +138,7 @@ sudo nano /etc/default/grub
 ◻️ **Change the line `GRUB_TIMEOUT_STYLE="hidden"` to this (*ie comment it out*) `#GRUB_TIMEOUT_STYLE="hidden"`**
 
 ◻️ **Then save the file and restart your pc**
-
+***
 ## 🎶 Setting up GRUB init tunes
 
 ◻️ **Edit the GRUB config file `/etc/default/grub`**
