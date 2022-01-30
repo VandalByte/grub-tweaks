@@ -7,6 +7,9 @@
   <a href="https://www.buymeacoffee.com/vandalsoul">
     <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-d4b700?style=for-the-badge&logo=buymeacoffee&logoColor=000000" alt="buymeacoffee" />
   </a>
+  <a href="https://ko-fi.com/vandalsoul">
+    <img src="https://img.shields.io/badge/ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=000000" alt="buymeacoffee" />
+  </a>
 </p>
 
 <p align="center">
