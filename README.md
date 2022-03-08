@@ -1,15 +1,9 @@
 ![logo](/media/banner.png)
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/LICENSE">
-    <img src="https://img.shields.io/badge/License%20MIT-blue?style=for-the-badge&logo=github&logoColor=000000" alt="license" />
-  </a>
-</p>
-
-<p align="center">
   <b>🙋 Hey there, if anyone wish to contribute new tweak-scripts 📝 / tweak-ideas ✨ then you are always welcome to do so 😄</b>
   <br>
-  <b>Also if you found this page useful please give it a ⭐
+  <b>Also if you found this page useful please consider giving it a star ⭐
 </p>
 
 # 📚 Topics
