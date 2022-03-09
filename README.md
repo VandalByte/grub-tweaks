@@ -114,7 +114,7 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 ## 🐲 [Setting up GRUB theme in Kali Linux](https://github.com/vandalsoul/grub-tweaks#-topics)
 *Writing soon...*
 ***
-## 🎩 Fix for GRUB theme not showing up ( Fedora, Ubuntu )
+## 🎩 [Fix for GRUB theme not showing up](https://github.com/vandalsoul/grub-tweaks#-topics) ( Fedora, Ubuntu )
 
 ◻️ **Edit the GRUB config file `/etc/default/grub`**
 ```shell
