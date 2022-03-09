@@ -15,7 +15,7 @@
 - [**Fix for GRUB theme not showing up**](https://github.com/vandalsoul/grub-tweaks#-fix-for-grub-theme-not-showing-up--fedora-ubuntu-) **( Fedora, Ubuntu )**
 - [**Setting up GRUB init tunes**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-init-tunes) **💟 By @Mage102**
 ***
-## 🖥️ Setting GRUB display resolution
+## 🖥️ [Setting GRUB display resolution](https://github.com/vandalsoul/grub-tweaks#-topics)
 
 ◻️ **First find your screen resolution**
 ```shell
@@ -34,7 +34,7 @@ xdpyinfo | awk '/dimensions/{print $2}'
   sudo grub2-mkconfig -o /boot/grub2/grub.cfg
   ```
 ***
-## 🖌️ Using a custom background
+## 🖌️ [Using a custom background](https://github.com/vandalsoul/grub-tweaks#-topics)
 
 ◻️ **Make sure to have your background match any of the following resolution**
 
@@ -50,7 +50,7 @@ xdpyinfo | awk '/dimensions/{print $2}'
 
 ◻️ **Rename it as `background.jpg` or `background.png` (** *the image extension must be same as in `theme.txt`* **)**
 ***
-## 🔮 Adding icons for Submenus
+## 🔮 [Adding icons for Submenus](https://github.com/vandalsoul/grub-tweaks#-topics)
 
 > **( NOTE ) 🚨 *Make sure to make a backup of the following files just to be on the safe side* 😶**
 
@@ -111,7 +111,7 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
   sudo grub2-mkconfig -o /boot/grub2/grub.cfg
   ```
 ***
-## 🐲 Setting up GRUB theme in Kali Linux
+## 🐲 [Setting up GRUB theme in Kali Linux](https://github.com/vandalsoul/grub-tweaks#-topics)
 *Writing soon...*
 ***
 ## 🎩 Fix for GRUB theme not showing up ( Fedora, Ubuntu )
@@ -139,7 +139,7 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
   sudo grub2-mkconfig -o /boot/grub2/grub.cfg
   ```
 ***
-## 🎶 Setting up GRUB init tunes
+## 🎶 [Setting up GRUB init tunes](https://github.com/vandalsoul/grub-tweaks#-topics)
 
 ◻️ **Edit the GRUB config file `/etc/default/grub`**
 
