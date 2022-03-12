@@ -10,6 +10,7 @@
 
 - [**Setting GRUB display resolution**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
 - [**Using a custom background**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-using-a-custom-background)
+- [**Fixing incorrect icons for Distro entries**](https://github.com/vandalsoul/grub-tweaks#-fixing-incorrect-icons-for-distro-entries) **💟 By @Jacksaur**
 - [**Adding icons for Submenus**](https://github.com/vandalsoul/grub-tweaks#-adding-icons-for-submenus) **💟 Credits @Brookg**
 - [**Setting up GRUB theme in Kali Linux**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-theme-in-kali-linux)
 - [**Fix for GRUB theme not showing up**](https://github.com/vandalsoul/grub-tweaks#-fix-for-grub-theme-not-showing-up--fedora-ubuntu-) **( Fedora, Ubuntu )**
@@ -50,6 +51,14 @@ xdpyinfo | awk '/dimensions/{print $2}'
 
 ◻️ **Rename it as `background.jpg` or `background.png` (** *the image extension must be same as in `theme.txt`* **)**
 ***
+## ⁉ [Fixing incorrect icons for Distro entries](https://github.com/vandalsoul/grub-tweaks#-topics)
+  
+> **Backup all the files in this folder before performing these actions! They are crucial files for GRUB.**
+◻️  **Navigate to '/etc/grub.d/'**
+  
+◻️  **Open and reach through each of the files until you find the entry for the Distro that has an incorrect icon. It will likely be one of the XX_linux_proxy files.**
+  
+  
 ## 🔮 [Adding icons for Submenus](https://github.com/vandalsoul/grub-tweaks#-topics)
 
 > **( NOTE ) 🚨 *Make sure to make a backup of the following files just to be on the safe side* 😶**
