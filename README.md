@@ -10,11 +10,11 @@
 
 - [**Setting GRUB display resolution**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
 - [**Using a custom background**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-using-a-custom-background)
-- [**Fixing incorrect icons for Distro entries**](https://github.com/vandalsoul/grub-tweaks#-fixing-incorrect-icons-for-distro-entries) **💟 By @Jacksaur**
 - [**Adding icons for Submenus**](https://github.com/vandalsoul/grub-tweaks#-adding-icons-for-submenus) **💟 Credits @Brookg**
 - [**Setting up GRUB theme in Kali Linux**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-theme-in-kali-linux)
 - [**Fix for GRUB theme not showing up**](https://github.com/vandalsoul/grub-tweaks#-fix-for-grub-theme-not-showing-up--fedora-ubuntu-) **( Fedora, Ubuntu )**
 - [**Setting up GRUB init tunes**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-init-tunes) **💟 By @Mage102**
+- [**Restoring broken grub.d files**](https://github.com/vandalsoul/grub-tweaks#-restoring-broken-grubd-files) **💟 By @Jacksaur**
 ***
 ## 🖥️ [Setting GRUB display resolution](https://github.com/vandalsoul/grub-tweaks#-topics)
 
@@ -51,17 +51,11 @@ xdpyinfo | awk '/dimensions/{print $2}'
 
 ◻️ **Rename it as `background.jpg` or `background.png` (** *the image extension must be same as in `theme.txt`* **)**
 ***
-## ⁉ [Fixing incorrect icons for Distro entries](https://github.com/vandalsoul/grub-tweaks#-topics)
-  
-> **Backup all the files in this folder before performing these actions! They are crucial files for GRUB.**
-◻️  **Navigate to '/etc/grub.d/'**
-  
-◻️  **Open and reach through each of the files until you find the entry for the Distro that has an incorrect icon. It will likely be one of the XX_linux_proxy files.**
-  
-  
 ## 🔮 [Adding icons for Submenus](https://github.com/vandalsoul/grub-tweaks#-topics)
 
 > **( NOTE ) 🚨 *Make sure to make a backup of the following files just to be on the safe side* 😶**
+  
+> ( NOTE ) 🚨 *This section will not work if you have used GRUB Customizer at all, as it changes around the files used here. You will need to uninstall GRUB Customizer and restore your original grub.d files to follow the instructions here.*
 
 <p align="left">
   <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/submenu.png" alt="license" />
@@ -169,3 +163,19 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
   ```shell
   sudo grub2-mkconfig -o /boot/grub2/grub.cfg
   ```
+  ***
+  ## ⁉ [Restoring a broken GRUB install](https://github.com/vandalsoul/grub-tweaks#-topics)
+  
+> **If you have somehow managed to break your GRUB installation, have lost your grub.d files, or just want to reinstall GRUB to start again from a fresh installation, this program will fully reinstall GRUB with all default settings.**
+
+◻️ **Backup anything from GRUB you still want to save. This includes themes and any remaining edited grub.d files. Everything inside your grub folders will be deleted.**
+
+◻️ **Download [boot-repair-disk](https://sourceforge.net/p/boot-repair-cd/home/Home/) and burn it to a USB. You can use a program like [Rufus](https://rufus.ie/en/) or [Ventoy](https://www.ventoy.net/en/index.html) to do so.
+
+◻️ **Shut down your computer, plug in the USB, start the computer and boot off it. Boot-Repair-Disk will now load up and ask whether you want to update. It's highly recommended you do this.**
+
+◻️ **In the Boot Repair window, click the 'Advanced Options' text in the corner. Make sure 'Reinstall GRUB' is ticked, then move to the 'GRUB Options' tab and tick the 'Purge GRUB before reinstalling it' option.**
+
+◻️ **Apply your changes, let the tool run, and it should pop up a window with a few terminal commands to run. Press 'CTRL + ALT + T' to open a terminal, copy the first command from the window, and paste it in with CTRL + SHIFT + V. Run each command in sequence like this and click continue when you have finished. GRUB will now be reinstalled.
+
+◻️ Reboot your system and you will now have a completely default GRUB installation again.
