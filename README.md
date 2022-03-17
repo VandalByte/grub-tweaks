@@ -176,7 +176,7 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
 
 ◻️ **In the Boot Repair window, click the 'Advanced Options' text in the corner. Make sure 'Reinstall GRUB' is ticked, then move to the 'GRUB Options' tab and tick the 'Purge GRUB before reinstalling it' option.**
 
-<img width=50% src="https://raw.githubusercontent.com/jacksaur/grub-tweaks/main/media/Reinstall.png" />
+<img width=50% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/Reinstall.png" />
 
 ◻️ **Apply your changes, let the tool run, and it should pop up a window with a few terminal commands to run. Press 'CTRL + ALT + T' to open a terminal, copy the first command from the window, and paste it in with CTRL + SHIFT + V. Run each command in sequence like this and click continue when you have finished. GRUB will now be reinstalled.**
 
