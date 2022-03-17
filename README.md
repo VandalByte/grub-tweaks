@@ -10,6 +10,7 @@
 
 - [**Setting GRUB display resolution**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
 - [**Using a custom background**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-using-a-custom-background)
+- [**Adding your BIOS to GRUB**](https://github.com/vandalsoul/grub-tweaks#-adding-your-bios-to-grub) **💟 By @Jacksaur**
 - [**Adding icons for Submenus**](https://github.com/vandalsoul/grub-tweaks#-adding-icons-for-submenus) **💟 Credits @Brookg**
 - [**Creating a custom menu layout**](https://github.com/vandalsoul/grub-tweaks#-creating-a-custom-menu-layout) **💟 By @Jacksaur**
 - [**Setting up GRUB theme in Kali Linux**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-theme-in-kali-linux)
@@ -51,6 +52,8 @@ xdpyinfo | awk '/dimensions/{print $2}'
 ◻️ **Place the background image inside the GRUB theme root directory `/boot/grub/themes/THEME-DIRECTORY`**
 
 ◻️ **Rename it as `background.jpg` or `background.png` (** *the image extension must be same as in `theme.txt`* **)**
+***
+## 🤖 [Adding your BIOS to GRUB](https://github.com/vandalsoul/grub-tweaks#-topics)
 ***
 ## 🔮 [Adding icons for Submenus](https://github.com/vandalsoul/grub-tweaks#-topics)
 
