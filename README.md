@@ -170,12 +170,14 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
 
 ◻️ **Backup anything from GRUB you still want to save. This includes themes and any remaining edited grub.d files. Everything inside your grub folders will be deleted.**
 
-◻️ **Download [boot-repair-disk](https://sourceforge.net/p/boot-repair-cd/home/Home/) and burn it to a USB. You can use a program like [Rufus](https://rufus.ie/en/) or [Ventoy](https://www.ventoy.net/en/index.html) to do so.
+◻️ **Download [boot-repair-disk](https://sourceforge.net/p/boot-repair-cd/home/Home/) and burn it to a USB. You can use a program like [Rufus](https://rufus.ie/en/) or [Ventoy](https://www.ventoy.net/en/index.html) to do so.**
 
 ◻️ **Shut down your computer, plug in the USB, start the computer and boot off it. Boot-Repair-Disk will now load up and ask whether you want to update. It's highly recommended you do this.**
 
 ◻️ **In the Boot Repair window, click the 'Advanced Options' text in the corner. Make sure 'Reinstall GRUB' is ticked, then move to the 'GRUB Options' tab and tick the 'Purge GRUB before reinstalling it' option.**
 
-◻️ **Apply your changes, let the tool run, and it should pop up a window with a few terminal commands to run. Press 'CTRL + ALT + T' to open a terminal, copy the first command from the window, and paste it in with CTRL + SHIFT + V. Run each command in sequence like this and click continue when you have finished. GRUB will now be reinstalled.
+<img width=50% src="https://raw.githubusercontent.com/jacksaur/grub-tweaks/main/media/Reinstall.png" />
+
+◻️ **Apply your changes, let the tool run, and it should pop up a window with a few terminal commands to run. Press 'CTRL + ALT + T' to open a terminal, copy the first command from the window, and paste it in with CTRL + SHIFT + V. Run each command in sequence like this and click continue when you have finished. GRUB will now be reinstalled.**
 
 ◻️ Reboot your system and you will now have a completely default GRUB installation again.
