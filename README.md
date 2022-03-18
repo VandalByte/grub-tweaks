@@ -119,19 +119,23 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 
 >🚨 WARNING: This section edits crucial GRUB files, relies on a lot of reading, exact copying, and can involve some guesswork. It can leave your GRUB menu completely unusuable if performed incorrectly. Make backups of all files involved, and take great care when performing these actions!
 
+// Add before/after here
+
 ◻️ **Navigate to `/etc/default/grub/` and open the grub.cfg file. You will need Root permissions to do this.**
 
-◻️ **Scroll through and find the Menu Entry you want to edit. For me, I want to change the 'Ubuntu' Entry. Copy the entire Menuentry and paste it into a text editor.**
+◻️ **Scroll through and find the first MenuEntry item. Copy the entire Menuentry and paste it into a text editor.**
 
-◻️ **Scroll up until you reach the header for the section your menuentry is in. It'll likely say ### BEGIN /etc/grub.d/10_linux ### or something similar. Make sure you copy any lines between this header and the start of the Menuentries. These are important initialisation lines for GRUB. Paste them into your text editor before the menu entry you pasted earlier.**
+◻️ **Scroll up until you reach the header for the section the menuentry is in. It'll likely say ### BEGIN /etc/grub.d/10_linux ### or something similar. Make sure you copy any lines between this header and the start of the Menuentries. These are important initialisation lines for GRUB. Paste them into your text editor before the menu entry you pasted earlier. For example, my file now looks like this:**
 
-◻️ **Continue to scroll down the grub.cfg file and copy any further Menuentries you want to appear, arranging them in the order you want them to appear in your text file. If you copy a Submenu (Such as 'Advanced Options for Ubuntu'), make sure you copy every MenuEntry listed beneath it. Watch the Curly braces carefully, as missing one can break the whole config.**
+//Add example 1 here
 
-◻️ Once you have your custom menu arranged how you want, you can edit the entries too. You can set the entry text by editing the first word in quotes, and the icon by adding '--class *filename*' after it, with *filename* being the name of an icon in your current theme. For instance, if I wanted to fix Kubuntu to display properly in GRUB, I would change the entry from
+◻️ **Continue to scroll down the grub.cfg file and copy any further Menuentries you want to appear, arranging them in the order you want in your text file. If you copy a Submenu (Such as 'Advanced Options for Ubuntu'), make sure you copy every MenuEntry listed beneath it. Watch the Curly braces carefully, as missing one can break the whole config.**
+
+◻️ **Once you have your custom menu arranged how you want, you can edit the entries too. You can set the entry's text by editing the first word in quotes, and the icon by adding '--class *filename*' after it, with *filename* being the name of an icon in your current theme. For instance, if I wanted to fix Kubuntu to display properly in GRUB, I would change the entry from**
 
 ```shell
 
-menuentry "Ubuntu" --class Ubuntu --class gnu-linux --class gnu --class os$menuentry_id_option 'gnulinux-simple-b3310e6b-8b20-4e99-9c49-f483db07cc5b' {
+menuentry "Ubuntu" --class ubuntu --class gnu-linux --class gnu --class os$menuentry_id_option 'gnulinux-simple-b3310e6b-8b20-4e99-9c49-f483db07cc5b' {
 
 ```
 
@@ -143,11 +147,12 @@ menuentry "Kubuntu" --class kubuntu --class gnu-linux --class gnu --class os$men
 
 ```
 
-◻️ When all your customizations are complete, navigate to `/etc/grub.d/` and edit the file `40_custom`. As the Comment mentions, paste your custom menu layout beneath it, taking care not to edit anything above it. Run the command `sudo update-grub` in your Terminal and watch in case there are any errors. If there are, you have copied part of the commands incorrectly.
+◻️ **When all your customizations are complete, navigate to `/etc/grub.d/` and edit the file `40_custom`. As the Comment mentions, paste your custom menu layout beneath it, taking care not to edit anything above it. Run the command `sudo update-grub` in your Terminal and watch for any errors. If there are, you have copied something incorrectly.**
+// ^ Change to multi distro command
 
-◻️ Restart your computer, and GRUB should now display your custom menu options beneath the default ones. Select one of your custom options and reboot afterwards to make certain they all work correctly. *Failing to check this can result in your GRUB Menu becoming completely useless after the next step*
+◻️ **Restart your computer, and GRUB should now display your custom menu options beneath the default ones. Select each of your custom options and reboot after they load to make certain they all work correctly. *Failing to check this can result in your GRUB Menu becoming completely useless after the next step.* **
 
-◻️ Once you're certain all your custom options work, you can now remove the default entries. Create a new folder in */etc/grub.d/* and move (Not delete!) any of the files beginning with 10 or higher into it, leaving your 40_custom file. Run *sudo update-grub* again, reboot, and make sure GRUB displays correctly. If it has any errors, you've moved a file that affects more than just the menu entries. This may vary by Distro, restore each file in turn until you find the one that fixes it again.
+◻️ **Once you're certain all your custom options work, you can finally remove the default entries. Create a new folder in */etc/grub.d/* and move (Not delete!) any of the files beginning with 10 or higher into it, leaving your 40_custom file. Run the command mentioned above again, reboot, and make sure GRUB displays correctly. If it has any errors, you've moved a file that affects more than just the menu entries. This may vary by your Distro, restore each file in turn until you find the one that fixes it again.**
 
 ***
 ## 🐲 [Setting up GRUB theme in Kali Linux](https://github.com/vandalsoul/grub-tweaks#-topics)
