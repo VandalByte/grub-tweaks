@@ -120,7 +120,7 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 >🚨 WARNING: This section edits crucial GRUB files, relies on a lot of reading, exact copying, and can involve some guesswork. It can leave your GRUB menu completely unusuable if performed incorrectly. Make backups of all files involved, and take great care when performing these actions!
 
 <p align="left">
-  <img width=80% src="https://raw.githubusercontent.com/Jacksaur/grub-tweaks/Custom/media/Custom Before-After.png" alt="license" />
+  <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/Custom Before-After.png" alt="license" />
 </p>
 
 ◻️ **Navigate to `/etc/default/grub/` and open the grub.cfg file. You will need Root permissions to do this.**
@@ -130,7 +130,7 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 ◻️ **Scroll up until you reach the header for the section the menuentry is in. It'll likely say ### BEGIN /etc/grub.d/10_linux ### or something similar. Make sure you copy any lines between this header and the start of the Menuentries. These are important initialisation lines for GRUB. Paste them into your text editor before the menu entry you pasted earlier. For example, my file now looks like this:**
 
 <p align="left">
-  <img width=50% src="https://raw.githubusercontent.com/Jacksaur/grub-tweaks/Custom/media/Custom%20Example.png" alt="license" />
+  <img width=40% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/Custom%20Example.png" alt="license" />
 </p>
 
 ◻️ **Continue to scroll down the grub.cfg file and copy any further Menuentries you want to appear, arranging them in the order you want in your text file. If you copy a Submenu (Such as 'Advanced Options for Ubuntu'), make sure you copy every MenuEntry listed beneath it. Watch the Curly braces carefully, as missing one can break the whole config.**
