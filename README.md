@@ -119,7 +119,9 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 
 >🚨 WARNING: This section edits crucial GRUB files, relies on a lot of reading, exact copying, and can involve some guesswork. It can leave your GRUB menu completely unusuable if performed incorrectly. Make backups of all files involved, and take great care when performing these actions!
 
-// Add before/after here
+<p align="left">
+  <img width=80% src="https://raw.githubusercontent.com/Jacksaur/grub-tweaks/Custom/media/Custom Before-After.png" alt="license" />
+</p>
 
 ◻️ **Navigate to `/etc/default/grub/` and open the grub.cfg file. You will need Root permissions to do this.**
 
@@ -127,7 +129,9 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 
 ◻️ **Scroll up until you reach the header for the section the menuentry is in. It'll likely say ### BEGIN /etc/grub.d/10_linux ### or something similar. Make sure you copy any lines between this header and the start of the Menuentries. These are important initialisation lines for GRUB. Paste them into your text editor before the menu entry you pasted earlier. For example, my file now looks like this:**
 
-//Add example 1 here
+<p align="left">
+  <img width=50% src="https://raw.githubusercontent.com/Jacksaur/grub-tweaks/Custom/media/Custom%20Example.png" alt="license" />
+</p>
 
 ◻️ **Continue to scroll down the grub.cfg file and copy any further Menuentries you want to appear, arranging them in the order you want in your text file. If you copy a Submenu (Such as 'Advanced Options for Ubuntu'), make sure you copy every MenuEntry listed beneath it. Watch the Curly braces carefully, as missing one can break the whole config.**
 
@@ -147,8 +151,16 @@ menuentry "Kubuntu" --class kubuntu --class gnu-linux --class gnu --class os$men
 
 ```
 
-◻️ **When all your customizations are complete, navigate to `/etc/grub.d/` and edit the file `40_custom`. As the Comment mentions, paste your custom menu layout beneath it, taking care not to edit anything above it. Run the command `sudo update-grub` in your Terminal and watch for any errors. If there are, you have copied something incorrectly.**
-// ^ Change to multi distro command
+◻️ **When all your customizations are complete, navigate to `/etc/grub.d/` and edit the file `40_custom`. As the Comment mentions, paste your custom menu layout beneath it, taking care not to edit anything above it. Update your GRUB config with the command**
+- **Debian ⛔ Ubuntu ⛔ Arch**
+  ```shell
+  sudo grub-mkconfig -o /boot/grub/grub.cfg
+  ```
+- **Fedora ⛔ Redhat**
+  ```shell
+  sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+  ```
+**and watch for any errors. If there are, you have copied something incorrectly.**
 
 ◻️ **Restart your computer, and GRUB should now display your custom menu options beneath the default ones. Select each of your custom options and reboot after they load to make certain they all work correctly. *Failing to check this can result in your GRUB Menu becoming completely useless after the next step.* **
 
