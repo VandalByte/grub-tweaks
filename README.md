@@ -49,7 +49,7 @@ xdpyinfo | awk '/dimensions/{print $2}'
 
 ◻️ **Place the background image inside the GRUB theme root directory `/boot/grub/themes/THEME-DIRECTORY`**
 
-◻️ **Rename it as `background.jpg` or `background.png` (** *the image extension must be same as in `theme.txt`* **)**
+◻️ **Rename it as `background.jpg` or `background.png` (***the image extension must be same as in `theme.txt`***)**
 ***
 ## 🔮 [Adding icons for Submenus](https://github.com/vandalsoul/grub-tweaks#-topics)
 
@@ -123,7 +123,7 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 ```shell
 sudo nano /etc/default/grub
 ```
-◻️ **Change the lines below (** *if any present* **)**
+◻️ **Change the lines below (***if any present***)**
 ```
 GRUB_TERMINAL_OUTPUT=consoleㅤ-->ㅤ #GRUB_TERMINAL_OUTPUT=console
 
