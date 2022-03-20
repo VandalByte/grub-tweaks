@@ -11,6 +11,7 @@
 - [**Setting GRUB display resolution**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
 - [**Using a custom background**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-using-a-custom-background)
 - [**Adding icons for Submenus**](https://github.com/vandalsoul/grub-tweaks#-adding-icons-for-submenus) **💟 Credits @Brookg**
+- [**Creating a custom menu layout**](https://github.com/vandalsoul/grub-tweaks#-creating-a-custom-menu-layout) **💟 By @Jacksaur**
 - [**Setting up GRUB theme in Kali Linux**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-theme-in-kali-linux)
 - [**Fix for GRUB theme not showing up**](https://github.com/vandalsoul/grub-tweaks#-fix-for-grub-theme-not-showing-up--fedora-ubuntu-) **( Fedora, Ubuntu )**
 - [**Setting up GRUB init tunes**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-init-tunes) **💟 By @Mage102**
@@ -113,6 +114,58 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
   ```shell
   sudo grub2-mkconfig -o /boot/grub2/grub.cfg
   ```
+***
+## 🛠 [Creating a custom Menu layout](https://github.com/vandalsoul/grub-tweaks#-topics)
+
+>🚨 WARNING: This section edits crucial GRUB files, relies on a lot of reading, exact copying, and can involve some guesswork. It can leave your GRUB menu completely unusuable if performed incorrectly. Make backups of all files involved, and take great care when performing these actions!
+
+<p align="left">
+  <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/Custom Before-After.png" alt="license" />
+</p>
+
+◻️ **Navigate to `/etc/default/grub/` and open the grub.cfg file. You will need Root permissions to do this.**
+
+◻️ **Scroll through and find the first MenuEntry item. Copy the entire Menuentry and paste it into a text editor.**
+
+◻️ **Scroll up until you reach the header for the section the menuentry is in. It'll likely say ### BEGIN /etc/grub.d/10_linux ### or something similar. Make sure you copy any lines between this header and the start of the Menuentries. These are important initialisation lines for GRUB. Paste them into your text editor before the menu entry you pasted earlier. For example, my file now looks like this:**
+
+<p align="left">
+  <img width=40% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/Custom%20Example.png" alt="license" />
+</p>
+
+◻️ **Continue to scroll down the grub.cfg file and copy any further Menuentries you want to appear, arranging them in the order you want in your text file. If you copy a Submenu (Such as 'Advanced Options for Ubuntu'), make sure you copy every MenuEntry listed beneath it. Watch the Curly braces carefully, as missing one can break the whole config.**
+
+◻️ **Once you have your custom menu arranged how you want, you can edit the entries too. You can set the entry's text by editing the first word in quotes, and the icon by adding '--class *filename*' after it, with *filename* being the name of an icon in your current theme. For instance, if I wanted to fix Kubuntu to display properly in GRUB, I would change the entry from**
+
+```shell
+
+menuentry "Ubuntu" --class ubuntu --class gnu-linux --class gnu --class os$menuentry_id_option 'gnulinux-simple-b3310e6b-8b20-4e99-9c49-f483db07cc5b' {
+
+```
+
+to
+
+```shell
+
+menuentry "Kubuntu" --class kubuntu --class gnu-linux --class gnu --class os$menuentry_id_option 'gnulinux-simple-b3310e6b-8b20-4e99-9c49-f483db07cc5b'
+
+```
+
+◻️ **When all your customizations are complete, navigate to `/etc/grub.d/` and edit the file `40_custom`. As the Comment mentions, paste your custom menu layout beneath it, taking care not to edit anything above it. Update your GRUB config with the command**
+- **Debian ⛔ Ubuntu ⛔ Arch**
+  ```shell
+  sudo grub-mkconfig -o /boot/grub/grub.cfg
+  ```
+- **Fedora ⛔ Redhat**
+  ```shell
+  sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+  ```
+**and watch for any errors. If there are, you have copied something incorrectly.**
+
+◻️ **Restart your computer, and GRUB should now display your custom menu options beneath the default ones. Select each of your custom options and reboot after they load to make certain they all work correctly. *Failing to check this can result in your GRUB Menu becoming completely useless after the next step.* **
+
+◻️ **Once you're certain all your custom options work, you can finally remove the default entries. Create a new folder in */etc/grub.d/* and move (Not delete!) any of the files beginning with 10 or higher into it, leaving your 40_custom file. Run the command mentioned above again, reboot, and make sure GRUB displays correctly. If it has any errors, you've moved a file that affects more than just the menu entries. This may vary by your Distro, restore each file in turn until you find the one that fixes it again.**
+
 ***
 ## 🐲 [Setting up GRUB theme in Kali Linux](https://github.com/vandalsoul/grub-tweaks#-topics)
 *Writing soon...*
