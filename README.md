@@ -1,9 +1,9 @@
 ![logo](/media/banner.png)
 
 <p align="center">
-  <b>If anyone wish to contribute new tweak-scripts 📝 or tweak-ideas ✨ then you are always welcome to do so 😄</b>
+  <b>Contributors are welcome anytime to contribute new tweak-scripts 📝 or tweak-ideas ✨ (about grub of course)</b>
   <br>
-  <b>Also if you found this page useful please consider giving it a star ⭐
+  <b>Consider giving this a star ⭐if you found this page useful ‼️</b>
 </p>
 
 # 📚 Topics
