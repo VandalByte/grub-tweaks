@@ -12,7 +12,7 @@
 - 🖌️ [**Using a custom background**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-using-a-custom-background)
 - 🔮 [**Adding icons for Submenus**](https://github.com/vandalsoul/grub-tweaks#-adding-icons-for-submenus) ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ**💖 Credits ~ @Brookg**
 - 🛠 [**Creating a custom menu layout**](https://github.com/vandalsoul/grub-tweaks#-creating-a-custom-menu-layout)ㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤ**💖 By ~ @Jacksaur**
-- 🐲 [**Setting up GRUB theme in Kali Linux**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-theme-in-kali-linux)ㅤ  **[❌]**
+- 🐲 [**Setting up GRUB theme in Kali Linux**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-theme-in-kali-linux)ㅤ  **[❌WIP ]**
 - 🎩 [**Fix for GRUB theme not showing up**](https://github.com/vandalsoul/grub-tweaks#-fix-for-grub-theme-not-showing-up--fedora-ubuntu-) **( Fedora, Ubuntu )**
 - 🎶 [**Setting up GRUB init tunes**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-init-tunes) ㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Mage102**
 - 💿 [**Restoring a broken GRUB install**](https://github.com/vandalsoul/grub-tweaks#-restoring-a-broken-grub-install) ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Jacksaur**
