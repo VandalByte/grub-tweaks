@@ -54,7 +54,7 @@ xdpyinfo | awk '/dimensions/{print $2}'
 ***
 ## 🔮 [Adding icons for Submenus](https://github.com/vandalsoul/grub-tweaks#-topics)
 
-> **【 🚨 NOTE 】: *Make sure to make a backup of the following files just to be on the safe side* 😶**
+> 【 🚨 NOTE 】: *Make sure to make a backup of the following files just to be on the safe side* 😶
   
 > 【 🚨 NOTE 】: *This section will not work if you have used GRUB Customizer at all, as it changes around the files used here. You will need to uninstall GRUB Customizer and restore your original grub.d files to follow the instructions here.*
 
@@ -117,7 +117,7 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 ***
 ## 🛠 [Creating a custom Menu layout](https://github.com/vandalsoul/grub-tweaks#-topics)
 
-> 【 🚨 WARNING 】: This section edits crucial GRUB files, relies on a lot of reading, exact copying, and can involve some guesswork. It can leave your GRUB menu completely unusuable if performed incorrectly. Make backups of all files involved, and take great care when performing these actions!
+> 【 🚨 WARNING 】: *This section edits crucial GRUB files, relies on a lot of reading, exact copying, and can involve some guesswork. It can leave your GRUB menu completely unusuable if performed incorrectly. Make backups of all files involved, and take great care when performing these actions!*
 
 <p align="left">
   <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/Custom Before-After.png" alt="license" />
@@ -195,7 +195,7 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
 
 ◻️ **Uncomment the line `#GRUB_INIT_TUNE="480 440 1"`**
 
-◻️ **Now if you want you can keep the default tune or else use one from the [cheatsheet](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md)**
+◻️ **Now if you want you can keep the default tune or else use one from the [CHEATSHEET](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md)**
 
 > 📢 *Just remember, longer the tune longer the boot time*
 
