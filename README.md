@@ -233,6 +233,6 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
 
 ## 🔤 [Creating custom font (.pf2) for GRUB](https://github.com/vandalsoul/grub-tweaks#-topics)
 ```shell
-grub2-mkfont -o OUTPUT_FILE_PATH.pf2 -s FONT_SIZE INPUT_FILE_PATH.ttf
+grub2-mkfont  -s FONT_SIZE -o OUTPUT_FILE_PATH.pf2 INPUT_FILE_PATH.ttf
 ```
-> **eg: `grub2-mkfont -o ./open-sans-24.pf2 -s 24 ./open-sans-regular.ttf`**
+> **eg: `grub2-mkfont -s 24 -o ./open-sans-24.pf2 ./open-sans-regular.ttf`**
