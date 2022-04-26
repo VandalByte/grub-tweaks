@@ -16,6 +16,7 @@
 - 🎩 [**Fix for GRUB theme not showing up**](https://github.com/vandalsoul/grub-tweaks#-fix-for-grub-theme-not-showing-up--fedora-ubuntu-) **( Fedora, Ubuntu )**
 - 🎶 [**Setting up GRUB init tunes**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-init-tunes) ㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Mage102**
 - 💿 [**Restoring a broken GRUB install**](https://github.com/vandalsoul/grub-tweaks#-restoring-a-broken-grub-install) ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Jacksaur**
+- 🔤 [**Creating custom font (.pf2) for GRUB**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
 ***
 ## 🖥️ [Setting GRUB display resolution](https://github.com/vandalsoul/grub-tweaks#-topics)
 
@@ -228,3 +229,10 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
 ◻️ **Apply your changes, let the tool run, and it should pop up a window with a few terminal commands to run. Press `CTRL + ALT + T` to open a terminal, copy the first command from the window, and paste it in with `CTRL + SHIFT + V`. Run each command in sequence like this and click continue when you have finished. GRUB will now be reinstalled.**
 
 ◻️ Reboot your system and you will now have a completely default GRUB installation again.
+***
+
+## 🔤 [Creating custom font (.pf2) for GRUB](https://github.com/vandalsoul/grub-tweaks#-topics)
+```shell
+grub2-mkfont -o OUTPUT_FILE_PATH.pf2 -s FONT_SIZE INPUT_FILE_PATH.ttf
+```
+> **eg: `grub2-mkfont -o ./open-sans-24.pf2 -s 24 ./open-sans-regular.ttf`**
