@@ -228,11 +228,16 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
 
 ◻️ **Apply your changes, let the tool run, and it should pop up a window with a few terminal commands to run. Press `CTRL + ALT + T` to open a terminal, copy the first command from the window, and paste it in with `CTRL + SHIFT + V`. Run each command in sequence like this and click continue when you have finished. GRUB will now be reinstalled.**
 
-◻️ Reboot your system and you will now have a completely default GRUB installation again.
+◻️ **Reboot your system and you will now have a completely default GRUB installation again.**
 ***
 
 ## 🔤 [Creating custom fonts (.pf2) for GRUB](https://github.com/vandalsoul/grub-tweaks#-topics)
+
+◻️ **To convert an OpenTypeFont (otf) to TrueTypeFont (ttf) you can use [otf2ttf](https://github.com/awesometoolbox/otf2ttf)**
+
+◻️ **The .pf2 file is the one used by GRUB, so to convert .ttf to .pf2 use**
 ```shell
-grub2-mkfont  -s FONT_SIZE -o OUTPUT_FILE_PATH.pf2 INPUT_FILE_PATH.ttf
+grub2-mkfont -s FONT_SIZE -o OUTPUT_FILE.pf2 INPUT_FILE.ttf
 ```
+
 > **eg: `grub2-mkfont -s 24 -o ./open-sans-24.pf2 ./open-sans-regular.ttf`**
