@@ -16,7 +16,7 @@
 - 🎩 [**Fix for GRUB theme not showing up**](https://github.com/vandalsoul/grub-tweaks#-fix-for-grub-theme-not-showing-up--fedora-ubuntu-) **( Fedora, Ubuntu )**
 - 🎶 [**Setting up GRUB init tunes**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-init-tunes) ㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Mage102**
 - 💿 [**Restoring a broken GRUB install**](https://github.com/vandalsoul/grub-tweaks#-restoring-a-broken-grub-install) ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Jacksaur**
-- 🔤 [**Creating custom font (.pf2) for GRUB**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
+- 🔤 [**Creating custom fonts (.pf2) for GRUB**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
 ***
 ## 🖥️ [Setting GRUB display resolution](https://github.com/vandalsoul/grub-tweaks#-topics)
 
@@ -121,7 +121,7 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 > 【 🚨 WARNING 】: *This section edits crucial GRUB files, relies on a lot of reading, exact copying, and can involve some guesswork. It can leave your GRUB menu completely unusuable if performed incorrectly. Make backups of all files involved, and take great care when performing these actions!*
 
 <p align="left">
-  <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/Custom Before-After.png" alt="license" />
+  <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/custom-grub.png" alt="img" />
 </p>
 
 ◻️ **Navigate to `/etc/default/grub/` and open the `grub.cfg` file. You will need root permissions to do this.**
@@ -131,7 +131,7 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 ◻️ **Scroll up until you reach the header for the section the menuentry is in. It'll likely say `### BEGIN /etc/grub.d/10_linux ###` or something similar. Make sure you copy any lines between this header and the start of the menuentries. These are important initialisation lines for GRUB. Paste them into your text editor before the menuentry you pasted earlier. For example, my file now looks like this:**
 
 <p align="left">
-  <img width=50% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/Custom%20Example.png" alt="license" />
+  <img width=50% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/custom-grub-example.png" alt="img" />
 </p>
 
 ◻️ **Continue to scroll down the `grub.cfg` file and copy any further menuentries you want to appear, arranging them in the order you want in your text file. If you copy a Submenu ( Such as `Advanced Options for Ubuntu` ), make sure you copy every menuentry listed beneath it. Watch the Curly braces carefully, as missing one can break the whole config.**
@@ -224,14 +224,14 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
 
 ◻️ **In the Boot Repair window, click the `Advanced Options` text in the corner. Make sure `Reinstall GRUB` is ticked ✅, then move to the `GRUB Options` tab and tick ✅ the `Purge GRUB before reinstalling it` option.**
 
-<img width=50% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/Reinstall.png" />
+<img width=50% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/reinstall-grub.png" alt="img" />
 
 ◻️ **Apply your changes, let the tool run, and it should pop up a window with a few terminal commands to run. Press `CTRL + ALT + T` to open a terminal, copy the first command from the window, and paste it in with `CTRL + SHIFT + V`. Run each command in sequence like this and click continue when you have finished. GRUB will now be reinstalled.**
 
 ◻️ Reboot your system and you will now have a completely default GRUB installation again.
 ***
 
-## 🔤 [Creating custom font (.pf2) for GRUB](https://github.com/vandalsoul/grub-tweaks#-topics)
+## 🔤 [Creating custom fonts (.pf2) for GRUB](https://github.com/vandalsoul/grub-tweaks#-topics)
 ```shell
 grub2-mkfont  -s FONT_SIZE -o OUTPUT_FILE_PATH.pf2 INPUT_FILE_PATH.ttf
 ```
