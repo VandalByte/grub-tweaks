@@ -55,9 +55,9 @@ xdpyinfo | awk '/dimensions/{print $2}'
 ***
 ## 🔮 [Adding icons for Submenus](https://github.com/vandalsoul/grub-tweaks#-topics)
 
-> 【 🚨 NOTE 】: *Make sure to make a backup of the following files just to be on the safe side* 😶
+> **( 🚨 NOTE ):** *Make sure to make a backup of the following files just to be on the safe side* 😶
   
-> 【 🚨 NOTE 】: *This section will not work if you have used GRUB Customizer at all, as it changes around the files used here. You will need to uninstall GRUB Customizer and restore your original grub.d files to follow the instructions here.*
+> **( 🚨 NOTE ):** *This section will not work if you have used GRUB Customizer at all, as it changes around the files used here. You will need to uninstall GRUB Customizer and restore your original grub.d files to follow the instructions here.*
 
 <p align="left">
   <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/submenu.png" alt="license" />
@@ -118,7 +118,7 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 ***
 ## 🛠 [Creating a custom Menu layout](https://github.com/vandalsoul/grub-tweaks#-topics)
 
-> 【 🚨 WARNING 】: *This section edits crucial GRUB files, relies on a lot of reading, exact copying, and can involve some guesswork. It can leave your GRUB menu completely unusuable if performed incorrectly. Make backups of all files involved, and take great care when performing these actions!*
+> **( 🚨 WARNING ):** *This section edits crucial GRUB files, relies on a lot of reading, exact copying, and can involve some guesswork. It can leave your GRUB menu completely unusuable if performed incorrectly. Make backups of all files involved, and take great care when performing these actions!*
 
 <p align="left">
   <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/custom-grub.png" alt="img" />
