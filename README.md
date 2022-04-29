@@ -1,9 +1,7 @@
 ![logo](/media/banner.png)
 
-<p align="center">
-  <b>Contributors are welcome anytime to contribute new tweak-scripts 📝 or tweak-ideas ✨ (about grub of course)</b>
-  <br>
-  <b>Consider giving this a star ⭐if you found this page useful ‼️</b>
+<p align="left">
+  <img width="110%" src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/update/media/side-note.png" alt="img" />
 </p>
 
 # 📚 Topics
@@ -60,7 +58,7 @@ xdpyinfo | awk '/dimensions/{print $2}'
 > **🔹 NOTE 🔹** *This section will not work if you have used GRUB Customizer at all, as it changes around the files used here. You will need to uninstall GRUB Customizer and restore your original grub.d files to follow the instructions here.*
 
 <p align="left">
-  <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/submenu.png" alt="license" />
+  <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/submenu.png" alt="img" />
 </p>
 
 ◻️ **First navigate to path `/etc/grub.d/`**
