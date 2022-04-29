@@ -12,7 +12,7 @@
 - 🖌️ [**Using a custom background**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-using-a-custom-background)
 - 🔮 [**Adding icons for Submenus**](https://github.com/vandalsoul/grub-tweaks#-adding-icons-for-submenus) ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ**💖 Credits ~ @Brookg**
 - 🛠 [**Creating a custom menu layout**](https://github.com/vandalsoul/grub-tweaks#-creating-a-custom-menu-layout)ㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤ**💖 By ~ @Jacksaur**
-- 🐲 [**Setting up GRUB theme in Kali Linux**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-theme-in-kali-linux)ㅤ  **[❌WIP ]**
+- 🐲 [**Setting up GRUB theme in Kali Linux**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-theme-in-kali-linux)
 - 🎩 [**Fix for GRUB theme not showing up**](https://github.com/vandalsoul/grub-tweaks#-fix-for-grub-theme-not-showing-up--fedora-ubuntu-) **( Fedora, Ubuntu )**
 - 🎶 [**Setting up GRUB init tunes**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-init-tunes) ㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Mage102**
 - 💿 [**Restoring a broken GRUB install**](https://github.com/vandalsoul/grub-tweaks#-restoring-a-broken-grub-install) ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Jacksaur**
@@ -163,7 +163,24 @@ menuentry "Kubuntu" --class kubuntu --class gnu-linux --class gnu --class os$men
 
 ***
 ## 🐲 [Setting up GRUB theme in Kali Linux](https://github.com/vandalsoul/grub-tweaks#-topics)
-*Writing soon...*
+
+◻️ **First copy your GRUB theme folder into `/boot/grub/themes/`**
+
+◻️ **Now edit the file `/etc/default/grub` and add the following line.**
+```
+GRUB_THEME="/boot/grub/themes/YOUR-THEME-DIR/theme.txt"
+```
+
+◻️ **Next remove or rename ( *maybe rename it to `.kali-themes.cfg` hidden file* ) the file `/etc/default/grub.d/kali-themes.cfg`**
+
+◻️ **Now the theme should be working if you run `sudo update-grub` and reboot, but the terminal output (one that shows after boot countdown) will still be Kali themed.**
+
+◻️ **So to fix that and make GRUB show the terminal theme included with the GRUB theme, like we did before, simply remove or rename the folder `/usr/share/grub/themes/kali`**
+
+◻️ **Now update the grub and reboot**
+```
+sudo update-grub
+```
 ***
 ## 🎩 [Fix for GRUB theme not showing up](https://github.com/vandalsoul/grub-tweaks#-topics) ( Fedora, Ubuntu )
 
