@@ -161,11 +161,13 @@ menuentry "Kubuntu" --class kubuntu --class gnu-linux --class gnu --class os$men
 
 ◻️ **Once you're certain all your custom options work, you can finally remove the default entries. Create a new folder in `/etc/grub.d/` and move ( ❌ Not delete! ) any of the files beginning with 10 or higher into it, leaving your `40_custom` file. Run the command mentioned above again, reboot, and make sure GRUB displays correctly. If it has any errors, you've moved a file that affects more than just the menu entries. This may vary by your Distro, restore each file in turn until you find the one that fixes it again.**
 
-> **( 🚨 WARNING ):** *40_custom will not update automatically! After each major update to your Distro, you may experience problems if you continue to use the old launch options tied to your custom menu. Especially if the update changes your distro's kernel version. See below on how to handle updates properly.*
+
+
+> **( 🚨 WARNING ):** *40_custom will not update automatically! After each major update to your Distro, you may experience problems if you continue to use the old launch commands tied to your custom menu. Especially if the update changes your distro's kernel version. See below on how to handle updates properly.*
 
 ◻️ **Before Upgrading your Distro, copy your 40_custom file to somewhere outside of the system files, to ensure it's safe. During your Upgrade, if the program asks for permission to edit any GRUB files, allow it every time.**
 
-◻️ **Delete everything you added to your 40_custom file, below the comment warning you not to edit the text above it. Then perform the steps listed in this section from the beginning again, adding the launch options that your Distro will have updated to work with the new version.**
+◻️ **Delete everything you added to your 40_custom file, below the Comment that warns you not to edit the text above it. Then perform the steps listed in this section from the beginning again, adding the launch options that your Distro will have now updated to work with its new version.**
 
 ◻️ **If after updating your GRUB config you get the error `401 40_custom not found` then something has gone wrong, and you need to completely regenerate the file from scratch. Copy the contents of it, delete it, and use the two commands below to create a new file and give it Execute permissions. Open it with a text editor, paste everything back into it, and update GRUB again.**
 
