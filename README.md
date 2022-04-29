@@ -55,9 +55,9 @@ xdpyinfo | awk '/dimensions/{print $2}'
 ***
 ## 🔮 [Adding icons for Submenus](https://github.com/vandalsoul/grub-tweaks#-topics)
 
-> **( 🚨 NOTE ):** *Make sure to make a backup of the following files just to be on the safe side* 😶
+> **🟩 NOTE :** *Make sure to make a backup of the following files just to be on the safe side* 😶
   
-> **( 🚨 NOTE ):** *This section will not work if you have used GRUB Customizer at all, as it changes around the files used here. You will need to uninstall GRUB Customizer and restore your original grub.d files to follow the instructions here.*
+> **🟩 NOTE :** *This section will not work if you have used GRUB Customizer at all, as it changes around the files used here. You will need to uninstall GRUB Customizer and restore your original grub.d files to follow the instructions here.*
 
 <p align="left">
   <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/submenu.png" alt="license" />
@@ -118,7 +118,7 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 ***
 ## 🛠 [Creating a custom Menu layout](https://github.com/vandalsoul/grub-tweaks#-topics)
 
-> **( 🚨 WARNING ):** *This section edits crucial GRUB files, relies on a lot of reading, exact copying, and can involve some guesswork. It can leave your GRUB menu completely unusuable if performed incorrectly. Make backups of all files involved, and take great care when performing these actions!*
+> **🟥 WARNING :** *This section edits crucial GRUB files, relies on a lot of reading, exact copying, and can involve some guesswork. It can leave your GRUB menu completely unusuable if performed incorrectly. Make backups of all files involved, and take great care when performing these actions!*
 
 <p align="left">
   <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/custom-grub.png" alt="img" />
@@ -163,11 +163,11 @@ menuentry "Kubuntu" --class kubuntu --class gnu-linux --class gnu --class os$men
 
 
 
-> **( 🚨 WARNING ):** *40_custom will not update automatically! After each major update to your Distro, you may experience problems if you continue to use the old launch commands tied to your custom menu. Especially if the update changes your distro's kernel version. See below on how to handle updates properly.*
+> **🟥 WARNING :** *`40_custom` will not update automatically! After each major update to your Distro, you may experience problems if you continue to use the old launch commands tied to your custom menu. Especially if the update changes your distro's kernel version. See below on how to handle updates properly.*
 
-◻️ **Before Upgrading your Distro, copy your 40_custom file to somewhere outside of the system files, to ensure it's safe. During your Upgrade, if the program asks for permission to edit any GRUB files, allow it every time.**
+◻️ **Before Upgrading your Distro, copy your `40_custom` file to somewhere outside of the system files, to ensure it's safe. During your Upgrade, if the program asks for permission to edit any GRUB files, allow it every time.**
 
-◻️ **Delete everything you added to your 40_custom file, below the Comment that warns you not to edit the text above it. Then perform the steps listed in this section from the beginning again, adding the launch options that your Distro will have now updated to work with its new version.**
+◻️ **Delete everything you added to your `40_custom` file, below the Comment that warns you not to edit the text above it. Then perform the steps listed in this section from the beginning again, adding the launch options that your Distro will have now updated to work with its new version.**
 
 ◻️ **If after updating your GRUB config you get the error `401 40_custom not found` then something has gone wrong, and you need to completely regenerate the file from scratch. Copy the contents of it, delete it, and use the two commands below to create a new file and give it Execute permissions. Open it with a text editor, paste everything back into it, and update GRUB again.**
 
@@ -186,7 +186,7 @@ menuentry "Kubuntu" --class kubuntu --class gnu-linux --class gnu --class os$men
 GRUB_THEME="/boot/grub/themes/YOUR-THEME-DIR/theme.txt"
 ```
 
-◻️ **Next remove or rename ( *maybe rename it to `.kali-themes.cfg` hidden file* ) the file `/etc/default/grub.d/kali-themes.cfg`**
+◻️ **Next remove or rename (** *maybe to `.kali-themes.cfg` hidden file* **) the file `/etc/default/grub.d/kali-themes.cfg`**
 
 ◻️ **Now the theme should be working if you run `sudo update-grub` and reboot, but the terminal output (one that shows after boot countdown) will still be Kali themed.**
 
