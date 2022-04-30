@@ -186,7 +186,7 @@ GRUB_THEME="/boot/grub/themes/YOUR-THEME-DIR/theme.txt"
 
 ◻️ **Next remove or rename (** *maybe to `.kali-themes.cfg` hidden file* **) the file `/etc/default/grub.d/kali-themes.cfg`**
 
-◻️ **Now the theme should be working if you run `sudo update-grub` and reboot, but the terminal output (one that shows after boot countdown) will still be Kali themed.**
+◻️ **Now the theme should be working if you run `sudo update-grub` and reboot, but the terminal output (** *one that shows after boot countdown* **) will still be Kali themed.**
 
 ◻️ **So to fix that and make GRUB show the terminal theme included with the GRUB theme, like we did before, simply remove or rename the folder `/usr/share/grub/themes/kali`**
 
@@ -244,7 +244,7 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
 ***
 ## 💿 [Restoring a broken GRUB install](https://github.com/vandalsoul/grub-tweaks#-topics)
   
-> **If you have somehow managed to break your GRUB installation, have lost your grub.d files, or just want to reinstall GRUB to start again from a fresh installation, this program will fully reinstall GRUB with all default settings.**
+> **🔹 NOTE 🔹** *If you have somehow managed to break your GRUB installation, have lost your grub.d files, or just want to reinstall GRUB to start again from a fresh installation, this program will fully reinstall GRUB with all default settings.*
 
 ◻️ **Backup anything from GRUB you still want to save. This includes themes and any remaining edited grub.d files. Everything inside your grub folders will be deleted.**
 
