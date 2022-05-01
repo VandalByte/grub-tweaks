@@ -12,16 +12,40 @@ tempo freq duration [freq duration freq duration...]
 
 # 🎶 Tunes
 ### 🎤 [Tunes of Musicians](https://github.com/vandalsoul/grub-tweaks/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-adamss-tune-source)
+- 🎵 [**Für Elise**](https://github.com/vandalsoul/grub-tweaks/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-f%C3%BCr-elise-by-beethoven-source) by Beethoven
 
 
 ### 🎤 [Tunes of Creators](https://github.com/vandalsoul/grub-tweaks/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-adamss-tune-source)
 - 🎵 [**Adams's tune**](https://github.com/vandalsoul/grub-tweaks/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-adamss-tune-source)
 
 
-### 🎤 [Tunes of Random Stuff](https://github.com/vandalsoul/grub-tweaks/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-adamss-tune-source)
+### 🎤 [Tunes of Randomness](https://github.com/vandalsoul/grub-tweaks/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-adamss-tune-source)
 
 
+### 🎵 Für Elise by Beethoven ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
+```
+480 420 1 400 1 420 1 400 1 420 1 315 1 370 1 335 1 282 3 180 1 215 1 282 1 315 3 213 1 262 1 315 1 335 3 213 1 420 1 400 1 420 1 400 1 420 1 315 1 370 1 335 1 282 3 180 1 215 1 282 1 315 3 213 1 330 1 315 1 282 3
+```
 
+### 🎵 One Summer's Day by Joe Hisaishi ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
+```
+1536 349 3 698 1 523 2 784 1 1319 6
+```
+
+### 🎵 Dream Of A Witches' Sabbath by Hector Berlioz ([source](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Play_a_tune))
+```
+312 262 3 247 3 262 3 220 3 247 3 196 3 220 3 220 3 262 3 262 3 294 3 262 3 247 3 220 3 196 3 247 3 262 3 247 5 220 1 220 5
+```
+
+### 🎵 Still DRE by by Dr. Dre (ft. Snoop Dogg) ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
+```
+1536 349 3 698 1 523 2 784 1 1319 6
+```
+
+### 🎵 The Chain by Fleetwood Mac ([source](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Play_a_tune))
+```
+304 55 5 0 1 55 1 62 1 65 2 62 1 55 1 49 1 55 1 62 2 41 8
+```
 
 ### 🎵 Adams's tune ([source](https://askubuntu.com/questions/76309/play-a-sound-before-or-after-grub-loads))
 ```
@@ -137,31 +161,4 @@ tempo freq duration [freq duration freq duration...]
 ### 🎵 UNKNOWN ([source](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Play_a_tune))
 ```
 480 220 1 277 1 330 1 440 1 185 1 220 1 277 1 370 1 294 1 370 1 440 1 587 1 330 1 415 1 494 1 659 1
-```
-
-Tunes from musicians
-
-### 🎵 Für Elise by Beethoven ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
-```
-480 420 1 400 1 420 1 400 1 420 1 315 1 370 1 335 1 282 3 180 1 215 1 282 1 315 3 213 1 262 1 315 1 335 3 213 1 420 1 400 1 420 1 400 1 420 1 315 1 370 1 335 1 282 3 180 1 215 1 282 1 315 3 213 1 330 1 315 1 282 3
-```
-
-### 🎵 One Summer's Day by Joe Hisaishi ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
-```
-1536 349 3 698 1 523 2 784 1 1319 6
-```
-
-### 🎵 Dream Of A Witches' Sabbath by Hector Berlioz ([source](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Play_a_tune))
-```
-312 262 3 247 3 262 3 220 3 247 3 196 3 220 3 220 3 262 3 262 3 294 3 262 3 247 3 220 3 196 3 247 3 262 3 247 5 220 1 220 5
-```
-
-### 🎵 Still DRE by by Dr. Dre (ft. Snoop Dogg) ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
-```
-1536 349 3 698 1 523 2 784 1 1319 6
-```
-
-### 🎵 The Chain by Fleetwood Mac ([source](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Play_a_tune))
-```
-304 55 5 0 1 55 1 62 1 65 2 62 1 55 1 49 1 55 1 62 2 41 8
 ```
