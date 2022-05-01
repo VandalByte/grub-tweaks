@@ -128,7 +128,7 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 
 ◻️ **Scroll up until you reach the header for the section the menuentry is in. It'll likely say `### BEGIN /etc/grub.d/10_linux ###` or something similar. Make sure you copy any lines between this header and the start of the menuentries. These are important initialisation lines for GRUB. Paste them into your text editor before the menuentry you pasted earlier. For example, my file now looks like this:**
 
-<p align="center">
+<p align="left">
   <img width=50% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/custom-grub-example.png" alt="img" />
 </p>
 
