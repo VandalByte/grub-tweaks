@@ -11,15 +11,15 @@ tempo freq duration [freq duration freq duration...]
 **🔗 Test these tunes at https://breadmaker.github.io/grub-tune-tester/**
 
 # 🎶 Tunes
-### 🎤 [Tunes of Musicians](https://github.com/vandalsoul/grub-tweaks/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-adamss-tune-source)
+### 🎤 Tunes of Musicians
 - 🎵 [**Für Elise**](https://github.com/vandalsoul/grub-tweaks/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-f%C3%BCr-elise-by-beethoven-source) by Beethoven
 
 
-### 🎤 [Tunes of Creators](https://github.com/vandalsoul/grub-tweaks/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-adamss-tune-source)
+### 🎤 Tunes of Creators
 - 🎵 [**Adams's tune**](https://github.com/vandalsoul/grub-tweaks/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-adamss-tune-source)
 
 
-### 🎤 [Tunes of Randomness](https://github.com/vandalsoul/grub-tweaks/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-adamss-tune-source)
+### 🎤 Tunes of Randomness
 
 
 ### 🎵 Für Elise by Beethoven ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
