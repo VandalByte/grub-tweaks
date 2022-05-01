@@ -9,11 +9,19 @@
 tempo freq duration [freq duration freq duration...]
 ```
 **🔗 Test these tunes at https://breadmaker.github.io/grub-tune-tester/**
-***
 
-<p align="left">
-  <img width="40%" src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/cheatsheet-1.png" />
-</p>
+# 🎶 Tunes
+### 🎤 [Tunes of Musicians](https://github.com/vandalsoul/grub-tweaks/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-adamss-tune-source)
+
+
+### 🎤 [Tunes of Creators](https://github.com/vandalsoul/grub-tweaks/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-adamss-tune-source)
+- 🎵 [**Adams's tune**](https://github.com/vandalsoul/grub-tweaks/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-adamss-tune-source)
+
+
+### 🎤 [Tunes of Random Stuff](https://github.com/vandalsoul/grub-tweaks/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-adamss-tune-source)
+
+
+
 
 ### 🎵 Adams's tune ([source](https://askubuntu.com/questions/76309/play-a-sound-before-or-after-grub-loads))
 ```
