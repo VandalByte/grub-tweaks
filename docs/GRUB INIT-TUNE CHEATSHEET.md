@@ -83,3 +83,50 @@ tempo freq duration [freq duration freq duration...]
 ```
 240 523 1 494 1 523 2 392 1 349 1 0 1 523 1 494 1 523 2 392 1 349 1 0 1 523 1 494 1 523 2 587 1 587 2 698 1 698 2 659 2 659 1 523 1 587 2 494 1 392 1 0 1 659 1 523 1 587 2 494 1 392 1 0 1 784 1 523 1 698 2 659 1 659 2 587 1 587 2
 ```
+
+### 🎵 Mall ( Nothing Special ) ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
+```
+180 440 1 554 1 659 1
+```
+
+### 🎵 My Little Pony ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
+```
+2400 587 18 554 4 587 8 659 12 587 16 0 10 587 4 659 4 740 8 587 4 784 12 740 8 659 8 587 4 740 20 587 40
+```
+
+### 🎵 The Lick ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
+```
+2400 587 18 554 4 587 8 659 12 587 16 0 10 587 4 659 4 740 8 587 4 784 12 740 8 659 8 587 4 740 20 587 40
+```
+
+### 🎵 TempleOS Hymn Risen ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
+```
+960 587 4 659 4 698 6 698 6 659 2 659 2 698 2 587 6 523 3 587 3 587 3 659 3 523 2 783 2 698 2 587 4
+```
+
+### 🎵 UNKNOWN ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
+```
+720 440 2 440 2 440 2 932 2 880 2 784 2 440 2 440 2 440 2 1047 2 880 2 932 2 440 2 440 2 440 2 698 2 587 2 554 2 659 2 698 2 659 2 784 2 698 2 659 2 440 2 440 2 440 2 1109 1 1175 1 1109 2 880 2 440 2 440 2 440 2 1397 2 1318 2 1175 2 1109 2 1175 2 932 2 1109 2 880 2 932 2 784 2 880 2 622 2 784 2 622 2 587 2
+```
+
+Tunes from musicians
+
+### 🎵 Für Elise by Beethoven ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
+```
+480 420 1 400 1 420 1 400 1 420 1 315 1 370 1 335 1 282 3 180 1 215 1 282 1 315 3 213 1 262 1 315 1 335 3 213 1 420 1 400 1 420 1 400 1 420 1 315 1 370 1 335 1 282 3 180 1 215 1 282 1 315 3 213 1 330 1 315 1 282 3
+```
+
+### 🎵 One Summer's Day by Joe Hisaishi ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
+```
+1536 349 3 698 1 523 2 784 1 1319 6
+```
+
+### 🎵 Dream Of A Witches' Sabbath by Hector Berlioz ([source](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Play_a_tune))
+```
+312 262 3 247 3 262 3 220 3 247 3 196 3 220 3 220 3 262 3 262 3 294 3 262 3 247 3 220 3 196 3 247 3 262 3 247 5 220 1 220 5
+```
+
+### 🎵 Still DRE by by Dr. Dre (ft. Snoop Dogg) ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
+```
+1536 349 3 698 1 523 2 784 1 1319 6
+```
