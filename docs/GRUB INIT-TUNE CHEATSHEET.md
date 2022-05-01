@@ -94,6 +94,21 @@ tempo freq duration [freq duration freq duration...]
 2400 587 18 554 4 587 8 659 12 587 16 0 10 587 4 659 4 740 8 587 4 784 12 740 8 659 8 587 4 740 20 587 40
 ```
 
+### 🎵 Oldskool Batman ([source](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Play_a_tune))
+```
+380 120 1 140 1 160 1 200 8 190 4
+```
+
+### 🎵 Final Countdown ([source](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Play_a_tune))
+```
+480 554 1 494 1 554 4 370 6 10 3 587 1 554 1 587 2 554 2 494 6
+```
+
+### 🎵 Legend of Zelda ([source](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Play_a_tune))
+```
+12000 440 100 0 1 329 150 440 50 0 1 440 25 493 25 523 25 587 25 659 200
+```
+
 ### 🎵 The Lick ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
 ```
 2400 587 18 554 4 587 8 659 12 587 16 0 10 587 4 659 4 740 8 587 4 784 12 740 8 659 8 587 4 740 20 587 40
@@ -107,6 +122,11 @@ tempo freq duration [freq duration freq duration...]
 ### 🎵 UNKNOWN ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
 ```
 720 440 2 440 2 440 2 932 2 880 2 784 2 440 2 440 2 440 2 1047 2 880 2 932 2 440 2 440 2 440 2 698 2 587 2 554 2 659 2 698 2 659 2 784 2 698 2 659 2 440 2 440 2 440 2 1109 1 1175 1 1109 2 880 2 440 2 440 2 440 2 1397 2 1318 2 1175 2 1109 2 1175 2 932 2 1109 2 880 2 932 2 784 2 880 2 622 2 784 2 622 2 587 2
+```
+
+### 🎵 UNKNOWN ([source](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Play_a_tune))
+```
+480 220 1 277 1 330 1 440 1 185 1 220 1 277 1 370 1 294 1 370 1 440 1 587 1 330 1 415 1 494 1 659 1
 ```
 
 Tunes from musicians
@@ -129,4 +149,9 @@ Tunes from musicians
 ### 🎵 Still DRE by by Dr. Dre (ft. Snoop Dogg) ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
 ```
 1536 349 3 698 1 523 2 784 1 1319 6
+```
+
+### 🎵 The Chain by Fleetwood Mac ([source](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Play_a_tune))
+```
+304 55 5 0 1 55 1 62 1 65 2 62 1 55 1 49 1 55 1 62 2 41 8
 ```
