@@ -2,6 +2,8 @@
   <img src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/cheatsheet-banner.png" />
 </p>
 
+**This page contains the GRUB tunes 🎵 that we were able to gather from the web 🌐 Feel free to add a new entry if you got one 🎶🎶🎶**
+
 ### ⚙️ GRUB_INIT_TUNE  format :
 ```
 tempo freq duration [freq duration freq duration...]
