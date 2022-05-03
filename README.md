@@ -1,7 +1,7 @@
 ![logo](/media/banner.png)
 
 <p align="left">
-  <img width="110%" src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/update/media/side-note.png" alt="img" />
+  <img width="110%" src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/side-note.png" alt="img" />
 </p>
 
 # 📚 Topics
