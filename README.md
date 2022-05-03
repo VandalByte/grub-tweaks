@@ -1,9 +1,7 @@
 ![logo](/media/banner.png)
 
-<p align="center">
-  <b>Contributors are welcome anytime to contribute new tweak-scripts 📝 or tweak-ideas ✨ (about grub of course)</b>
-  <br>
-  <b>Consider giving this a star ⭐if you found this page useful ‼️</b>
+<p align="left">
+  <img width="110%" src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/side-note.png" alt="img" />
 </p>
 
 # 📚 Topics
@@ -55,12 +53,12 @@ xdpyinfo | awk '/dimensions/{print $2}'
 ***
 ## 🔮 [Adding icons for Submenus](https://github.com/vandalsoul/grub-tweaks#-topics)
 
-> **( 🚨 NOTE ):** *Make sure to make a backup of the following files just to be on the safe side* 😶
+> **🔹 NOTE 🔹** *Make sure to make a backup of the following files just to be on the safe side* 😶
   
-> **( 🚨 NOTE ):** *This section will not work if you have used GRUB Customizer at all, as it changes around the files used here. You will need to uninstall GRUB Customizer and restore your original grub.d files to follow the instructions here.*
+> **🔹 NOTE 🔹** *This section will not work if you have used GRUB Customizer at all, as it changes around the files used here. You will need to uninstall GRUB Customizer and restore your original grub.d files to follow the instructions here.*
 
 <p align="left">
-  <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/submenu.png" alt="license" />
+  <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/submenu.png" alt="img" />
 </p>
 
 ◻️ **First navigate to path `/etc/grub.d/`**
@@ -118,7 +116,7 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 ***
 ## 🛠 [Creating a custom Menu layout](https://github.com/vandalsoul/grub-tweaks#-topics)
 
-> **( 🚨 WARNING ):** *This section edits crucial GRUB files, relies on a lot of reading, exact copying, and can involve some guesswork. It can leave your GRUB menu completely unusuable if performed incorrectly. Make backups of all files involved, and take great care when performing these actions!*
+> **🔸 WARNING 🔸** *This section edits crucial GRUB files, relies on a lot of reading, exact copying, and can involve some guesswork. It can leave your GRUB menu completely unusuable if performed incorrectly. Make backups of all files involved, and take great care when performing these actions!*
 
 <p align="left">
   <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/custom-grub.png" alt="img" />
@@ -130,7 +128,7 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 
 ◻️ **Scroll up until you reach the header for the section the menuentry is in. It'll likely say `### BEGIN /etc/grub.d/10_linux ###` or something similar. Make sure you copy any lines between this header and the start of the menuentries. These are important initialisation lines for GRUB. Paste them into your text editor before the menuentry you pasted earlier. For example, my file now looks like this:**
 
-<p align="center">
+<p align="left">
   <img width=50% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/custom-grub-example.png" alt="img" />
 </p>
 
@@ -163,11 +161,11 @@ menuentry "Kubuntu" --class kubuntu --class gnu-linux --class gnu --class os$men
 
 
 
-> **( 🚨 WARNING ):** *40_custom will not update automatically! After each major update to your Distro, you may experience problems if you continue to use the old launch commands tied to your custom menu. Especially if the update changes your distro's kernel version. See below on how to handle updates properly.*
+> **🔸 WARNING 🔸** *`40_custom` will not update automatically! After each major update to your Distro, you may experience problems if you continue to use the old launch commands tied to your custom menu. Especially if the update changes your distro's kernel version. See below on how to handle updates properly.*
 
-◻️ **Before Upgrading your Distro, copy your 40_custom file to somewhere outside of the system files, to ensure it's safe. During your Upgrade, if the program asks for permission to edit any GRUB files, allow it every time.**
+◻️ **Before Upgrading your Distro, copy your `40_custom` file to somewhere outside of the system files, to ensure it's safe. During your Upgrade, if the program asks for permission to edit any GRUB files, allow it every time.**
 
-◻️ **Delete everything you added to your 40_custom file, below the Comment that warns you not to edit the text above it. Then perform the steps listed in this section from the beginning again, adding the launch options that your Distro will have now updated to work with its new version.**
+◻️ **Delete everything you added to your `40_custom` file, below the Comment that warns you not to edit the text above it. Then perform the steps listed in this section from the beginning again, adding the launch options that your Distro will have now updated to work with its new version.**
 
 ◻️ **If after updating your GRUB config you get the error `401 40_custom not found` then something has gone wrong, and you need to completely regenerate the file from scratch. Copy the contents of it, delete it, and use the two commands below to create a new file and give it Execute permissions. Open it with a text editor, paste everything back into it, and update GRUB again.**
 
@@ -186,9 +184,9 @@ menuentry "Kubuntu" --class kubuntu --class gnu-linux --class gnu --class os$men
 GRUB_THEME="/boot/grub/themes/YOUR-THEME-DIR/theme.txt"
 ```
 
-◻️ **Next remove or rename ( *maybe rename it to `.kali-themes.cfg` hidden file* ) the file `/etc/default/grub.d/kali-themes.cfg`**
+◻️ **Next remove or rename (** *maybe to `.kali-themes.cfg` hidden file* **) the file `/etc/default/grub.d/kali-themes.cfg`**
 
-◻️ **Now the theme should be working if you run `sudo update-grub` and reboot, but the terminal output (one that shows after boot countdown) will still be Kali themed.**
+◻️ **Now the theme should be working if you run `sudo update-grub` and reboot, but the terminal output (** *one that shows after boot countdown* **) will still be Kali themed.**
 
 ◻️ **So to fix that and make GRUB show the terminal theme included with the GRUB theme, like we did before, simply remove or rename the folder `/usr/share/grub/themes/kali`**
 
@@ -246,7 +244,7 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
 ***
 ## 💿 [Restoring a broken GRUB install](https://github.com/vandalsoul/grub-tweaks#-topics)
   
-> **If you have somehow managed to break your GRUB installation, have lost your grub.d files, or just want to reinstall GRUB to start again from a fresh installation, this program will fully reinstall GRUB with all default settings.**
+> **🔹 NOTE 🔹** *If you have somehow managed to break your GRUB installation, have lost your grub.d files, or just want to reinstall GRUB to start again from a fresh installation, this program will fully reinstall GRUB with all default settings.*
 
 ◻️ **Backup anything from GRUB you still want to save. This includes themes and any remaining edited grub.d files. Everything inside your grub folders will be deleted.**
 
