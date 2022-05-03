@@ -11,7 +11,7 @@ tempo freq duration [freq duration freq duration...]
 **🔗 Test these tunes at https://breadmaker.github.io/grub-tune-tester/**
 
 # 🎶 Tunes
-### 🎵 Tunes of Musicians
+### 🎵 Tunes from Musicians
 - 🎤 [**Für Elise**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-f%C3%BCr-elise-source) by ***Beethoven***
 - 🎤 [**One Summer's Day**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-one-summers-day-source) by ***Joe Hisaishi***
 - 🎤 [**Dream Of A Witches' Sabbath**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-dream-of-a-witches-sabbath-source) by ***Hector Berlioz***
@@ -19,13 +19,13 @@ tempo freq duration [freq duration freq duration...]
 - 🎤 [**The Chain**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-the-chain-source) by ***Fleetwood Mac***
 - 🎤 [**The Final Countdown**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-the-final-countdown-source) by ***Europe***
 
-### 🎵 Tunes of Creators
+### 🎵 Tunes from Creators
 - 🎤 [**Adams's tune**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-adamss-tune-source)
 - 🎤 [**xiè-jìléi's tune**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-xi%C3%A8-j%C3%ACl%C3%A9is-tune-source)
 - 🎤 [**hexdef101's tune**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-hexdef101s-tune-source)
 - 🎤 [**seanonymous's tune**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-seanonymouss-tune-source)
 
-### 🎵 Tunes of Randomness
+### 🎵 Tunes from Randomness
 - 🎤 [**Mario Bros**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-mario-bros-source)
 - 🎤 [**Wolfestein 3D**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-wolfestein-3d-music-intro-source)
 - 🎤 [**Close Encounters**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-close-encounters-source)
@@ -41,6 +41,10 @@ tempo freq duration [freq duration freq duration...]
 - 🎤 [**UNKNOWN**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-unknown-source-1)
 
 ***
+<p align="left">
+  <img width="50%" src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/tunes-1.png" />
+</p>
+
 ### 🎵 Für Elise ([source](https://gist.github.com/ArtBIT/cfb030c0791b42330381acce33f82ca0))
 ```
 480 420 1 400 1 420 1 400 1 420 1 315 1 370 1 335 1 282 3 180 1 215 1 282 1 315 3 213 1 262 1 315 1 335 3 213 1 420 1 400 1 420 1 400 1 420 1 315 1 370 1 335 1 282 3 180 1 215 1 282 1 315 3 213 1 330 1 315 1 282 3
@@ -71,6 +75,10 @@ tempo freq duration [freq duration freq duration...]
 480 554 1 494 1 554 4 370 6 10 3 587 1 554 1 587 2 554 2 494 6
 ```
 ***
+<p align="left">
+  <img width="50%" src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/tunes-2.png" />
+</p>
+
 ### 🎵 Adams's tune ([source](https://askubuntu.com/questions/76309/play-a-sound-before-or-after-grub-loads))
 ```
 480 220 1 277 1 330 1 440 1 185 1 220 1 277 1 370 1 294 1 370 1 440 1 587 1 330 1 415 1 494 1 659 1
@@ -92,7 +100,7 @@ tempo freq duration [freq duration freq duration...]
 ```
 ***
 <p align="left">
-  <img width="40%" src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/cheatsheet-2.png" />
+  <img width="50%" src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/tunes-3.png" />
 </p>
 
 ### 🎵 Mario Bros ([source](https://breadmaker.github.io/grub-tune-tester/))
