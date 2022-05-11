@@ -37,6 +37,7 @@ tempo freq duration [freq duration freq duration...]
 - 🎤 [**Legend of Zelda**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-legend-of-zelda-source)
 - 🎤 [**The Lick**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-the-lick-source)
 - 🎤 [**TempleOS Hymn Risen**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-templeos-hymn-risen-source)
+- 🎤 [**Nokia Ringtone**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-nokia-ringtone-source)
 - 🎤 [**UNKNOWN**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-unknown-source)
 - 🎤 [**UNKNOWN**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-unknown-source-1)
 
