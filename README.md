@@ -15,6 +15,9 @@
 - 🎶 [**Setting up GRUB init tunes**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-init-tunes) ㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Mage102**
 - 💿 [**Restoring a broken GRUB install**](https://github.com/vandalsoul/grub-tweaks#-restoring-a-broken-grub-install) ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Jacksaur**
 - 🔤 [**Creating custom fonts (.pf2) for GRUB**](https://github.com/vandalsoul/grub-tweaks#-creating-custom-fonts-pf2-for-grub)
+- 🧪 [**Testing your GRUB themes**](https://github.com/vandalsoul/grub-tweaks#-testing-your-grub-themes)
+
+
 ***
 ## 🖥️ [Setting GRUB display resolution](https://github.com/vandalsoul/grub-tweaks#-topics)
 
@@ -271,3 +274,23 @@ grub2-mkfont -s FONT_SIZE -o OUTPUT_FILE.pf2 INPUT_FILE.ttf
 ```
 
 > **eg: `grub2-mkfont -s 24 -o ./open-sans-24.pf2 ./open-sans-regular.ttf`**
+***
+
+## 🧪 [Testing your GRUB themes](https://github.com/vandalsoul/grub-tweaks#-topics)
+
+[grub2-theme-preview](https://github.com/hartwork/grub2-theme-preview) is a very handy tool to test your new grub theme without having to reboot or create a vm every time you make a change.
+
+> It takes a theme folder (or just a single picture), creates a temporary bootable image using grub2-mkrescue and launches that image in a virtual machine using KVM/QEMU, all without root privileges."
+
+◻️ **Prerequisites**
+  - grub-mkrescue
+  - QEMU
+  - OVMF
+  - xorriso
+  - python3
+
+◻️ **Installation**
+  - `pip install --user grub2-theme-preview`
+
+◻️ **Example Usage**
+  - `grub2-theme-preview --resolution=1920x1080 /path/to/my/theme`
