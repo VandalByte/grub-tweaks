@@ -273,7 +273,7 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
 grub2-mkfont -s FONT_SIZE -o OUTPUT_FILE.pf2 INPUT_FILE.ttf
 ```
 
-> **eg: `grub2-mkfont -s 24 -o ./open-sans-24.pf2 ./open-sans-regular.ttf`**
+> **Example usage : `grub2-mkfont -s 24 -o ./open-sans-24.pf2 ./open-sans-regular.ttf`**
 ***
 
 ## 🧪 [Testing your GRUB themes](https://github.com/vandalsoul/grub-tweaks#-topics)
@@ -288,9 +288,13 @@ grub2-mkfont -s FONT_SIZE -o OUTPUT_FILE.pf2 INPUT_FILE.ttf
   - OVMF
   - xorriso
   - python3
+  - python3-pip
 
 ◻️ **Installation**
-  - `pip install --user grub2-theme-preview`
+```
+pip3 install --user grub2-theme-preview
+```
 
-◻️ **Example Usage**
-  - `grub2-theme-preview --resolution=1920x1080 /path/to/my/theme`
+> **Example usage : `grub2-theme-preview --resolution=1920x1080 /path/to/my/theme`**
+
+*If some error shows up try using the command with `--no-kvm` flag*
