@@ -295,6 +295,8 @@ grub2-mkfont -s FONT_SIZE -o OUTPUT_FILE.pf2 INPUT_FILE.ttf
 pip3 install --user grub2-theme-preview
 ```
 
+<br>
+
 > **Example usage : `grub2-theme-preview --resolution=1920x1080 /path/to/my/theme`**
 
 *If some error shows up try using the command with `--no-kvm` flag*
