@@ -14,8 +14,10 @@
 - 🎩 [**Fix for GRUB theme not showing up**](https://github.com/vandalsoul/grub-tweaks#-fix-for-grub-theme-not-showing-up--fedora-ubuntu-) **( Fedora, Ubuntu )**
 - 🎶 [**Setting up GRUB init tunes**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-init-tunes) ㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Mage102**
 - 💿 [**Restoring a broken GRUB install**](https://github.com/vandalsoul/grub-tweaks#-restoring-a-broken-grub-install) ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Jacksaur**
-- 🔤 [**Creating custom fonts (.pf2) for GRUB**](https://github.com/vandalsoul/grub-tweaks#-creating-custom-fonts-pf2-for-grub)
-- 🧪 [**Testing your GRUB themes**](https://github.com/vandalsoul/grub-tweaks#-testing-your-grub-themes)
+- ✒️ [**Creating custom fonts (.pf2) for GRUB**](https://github.com/vandalsoul/grub-tweaks#-creating-custom-fonts-pf2-for-grub)
+- 🧪 [**Testing your GRUB themes**](https://github.com/vandalsoul/grub-tweaks#-testing-your-grub-themes) ㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @jon4hz**
+- 🔒 [**Setting up password for GRUB**](https://github.com/VandalByte/grub-tweaks#-setting-up-password-for-grub) ㅤㅤ *Writing soon...*
+- 🚀 [**Speed up GRUB booting time**](https://github.com/VandalByte/grub-tweaks#-speed-up-grub-booting-time) ㅤㅤ  *Writing soon...*
 
 
 ***
@@ -264,7 +266,7 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
 ◻️ **Reboot your system and you will now have a completely default GRUB installation again.**
 ***
 
-## 🔤 [Creating custom fonts (.pf2) for GRUB](https://github.com/vandalsoul/grub-tweaks#-topics)
+## ✒️ [Creating custom fonts (.pf2) for GRUB](https://github.com/vandalsoul/grub-tweaks#-topics)
 
 ◻️ **To convert an OpenTypeFont (otf) to TrueTypeFont (ttf) you can use [otf2ttf](https://github.com/awesometoolbox/otf2ttf)**
 
@@ -278,9 +280,9 @@ grub2-mkfont -s FONT_SIZE -o OUTPUT_FILE.pf2 INPUT_FILE.ttf
 
 ## 🧪 [Testing your GRUB themes](https://github.com/vandalsoul/grub-tweaks#-topics)
 
-[grub2-theme-preview](https://github.com/hartwork/grub2-theme-preview) is a very handy tool to test your new grub theme without having to reboot or create a vm every time you make a change.
+**[grub2-theme-preview](https://github.com/hartwork/grub2-theme-preview) is a very handy tool to test your new grub theme without having to reboot or create a vm every time you make a change.**
 
-> It takes a theme folder (or just a single picture), creates a temporary bootable image using grub2-mkrescue and launches that image in a virtual machine using KVM/QEMU, all without root privileges."
+> **🔹 NOTE 🔹** *It takes a theme folder (or just a single picture), creates a temporary bootable image using grub2-mkrescue and launches that image in a virtual machine using KVM/QEMU, all without root privileges.*
 
 ◻️ **Prerequisites**
 - **For DEBIAN based systems:**
@@ -292,9 +294,15 @@ sudo apt install grub-common ovmf xorriso qemu qemu-system qemu-system-common py
 ```
 pip3 install --user grub2-theme-preview
 ```
-
-<br>
-
-> **Example usage : `grub2-theme-preview --resolution=1920x1080 /path/to/my/theme-dir`**
+◻️ **Usage**
 
 *If some error/nothing shows up try using the command with `--no-kvm` flag*
+> **Example usage : `grub2-theme-preview --resolution=1920x1080 /path/to/my/theme-dir`**
+
+***
+
+## 🔒 [Setting up password for GRUB](https://github.com/vandalsoul/grub-tweaks#-topics)
+*Writing soon...*
+
+## 🚀 [Speed up GRUB booting time](https://github.com/vandalsoul/grub-tweaks#-topics)
+*Writing soon...*
