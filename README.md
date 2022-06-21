@@ -1,27 +1,27 @@
 ![logo](/media/banner.png)
 
 <p align="left">
-  <img width="110%" src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/side-note.png" alt="img" />
+  <img width="110%" src="https://raw.githubusercontent.com/VandalByte/grub-tweaks/main/media/side-note.png" alt="img" />
 </p>
 
 # 📚 Topics
 
-- 🖥️ [**Setting GRUB display resolution**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
-- 🖌️ [**Using a custom background**](https://github.com/vandalsoul/grub-tweaks#%EF%B8%8F-using-a-custom-background)
-- 🔮 [**Adding icons for Submenus**](https://github.com/vandalsoul/grub-tweaks#-adding-icons-for-submenus) ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ**💖 Credits ~ @Brookg**
-- 🛠 [**Creating a custom menu layout**](https://github.com/vandalsoul/grub-tweaks#-creating-a-custom-menu-layout)ㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤ**💖 By ~ @Jacksaur**
-- 🐲 [**Setting up GRUB theme in Kali Linux**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-theme-in-kali-linux)
-- 🎩 [**Fix for GRUB theme not showing up**](https://github.com/vandalsoul/grub-tweaks#-fix-for-grub-theme-not-showing-up--fedora-ubuntu-) **( Fedora, Ubuntu )**
-- 🎶 [**Setting up GRUB init tunes**](https://github.com/vandalsoul/grub-tweaks#-setting-up-grub-init-tunes) ㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Mage102**
-- 💿 [**Restoring a broken GRUB install**](https://github.com/vandalsoul/grub-tweaks#-restoring-a-broken-grub-install) ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Jacksaur**
-- ✒️ [**Creating custom fonts (.pf2) for GRUB**](https://github.com/vandalsoul/grub-tweaks#-creating-custom-fonts-pf2-for-grub)
-- 🧪 [**Testing your GRUB themes**](https://github.com/vandalsoul/grub-tweaks#-testing-your-grub-themes) ㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @jon4hz**
+- 🖥️ [**Setting GRUB display resolution**](https://github.com/VandalByte/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
+- 🖌️ [**Using a custom background**](https://github.com/VandalByte/grub-tweaks#%EF%B8%8F-using-a-custom-background)
+- 🔮 [**Adding icons for Submenus**](https://github.com/VandalByte/grub-tweaks#-adding-icons-for-submenus) ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ**💖 Credits ~ @Brookg**
+- 🛠 [**Creating a custom menu layout**](https://github.com/VandalByte/grub-tweaks#-creating-a-custom-menu-layout)ㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤ**💖 By ~ @Jacksaur**
+- 🐲 [**Setting up GRUB theme in Kali Linux**](https://github.com/VandalByte/grub-tweaks#-setting-up-grub-theme-in-kali-linux)
+- 🎩 [**Fix for GRUB theme not showing up**](https://github.com/VandalByte/grub-tweaks#-fix-for-grub-theme-not-showing-up--fedora-ubuntu-) **( Fedora, Ubuntu )**
+- 🎶 [**Setting up GRUB init tunes**](https://github.com/VandalByte/grub-tweaks#-setting-up-grub-init-tunes) ㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Mage102**
+- 💿 [**Restoring a broken GRUB install**](https://github.com/VandalByte/grub-tweaks#-restoring-a-broken-grub-install) ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Jacksaur**
+- ✒️ [**Creating custom fonts (.pf2) for GRUB**](https://github.com/VandalByte/grub-tweaks#-creating-custom-fonts-pf2-for-grub)
+- 🧪 [**Testing your GRUB themes**](https://github.com/VandalByte/grub-tweaks#-testing-your-grub-themes) ㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @jon4hz**
 - 🔒 [**Setting up password for GRUB**](https://github.com/VandalByte/grub-tweaks#-setting-up-password-for-grub) ㅤㅤ *Writing soon...*
 - 🚀 [**Speed up GRUB booting time**](https://github.com/VandalByte/grub-tweaks#-speed-up-grub-booting-time) ㅤㅤ  *Writing soon...*
 
 
 ***
-## 🖥️ [Setting GRUB display resolution](https://github.com/vandalsoul/grub-tweaks#-topics)
+## 🖥️ [Setting GRUB display resolution](https://github.com/VandalByte/grub-tweaks#-topics)
 
 ◻️ **First find your screen resolution**
 ```shell
@@ -40,7 +40,7 @@ xdpyinfo | awk '/dimensions/{print $2}'
   sudo grub2-mkconfig -o /boot/grub2/grub.cfg
   ```
 ***
-## 🖌️ [Using a custom background](https://github.com/vandalsoul/grub-tweaks#-topics)
+## 🖌️ [Using a custom background](https://github.com/VandalByte/grub-tweaks#-topics)
 
 ◻️ **Make sure to have your background match any of the following resolution**
 
@@ -56,14 +56,14 @@ xdpyinfo | awk '/dimensions/{print $2}'
 
 ◻️ **Rename it as `background.jpg` or `background.png` (***the image extension must be same as in `theme.txt`***)**
 ***
-## 🔮 [Adding icons for Submenus](https://github.com/vandalsoul/grub-tweaks#-topics)
+## 🔮 [Adding icons for Submenus](https://github.com/VandalByte/grub-tweaks#-topics)
 
 > **🔹 NOTE 🔹** *Make sure to make a backup of the following files just to be on the safe side* 😶
   
 > **🔹 NOTE 🔹** *This section will not work if you have used GRUB Customizer at all, as it changes around the files used here. You will need to uninstall GRUB Customizer and restore your original grub.d files to follow the instructions here.*
 
 <p align="left">
-  <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/submenu.png" alt="img" />
+  <img width=80% src="https://raw.githubusercontent.com/VandalByte/grub-tweaks/main/media/submenu.png" alt="img" />
 </p>
 
 ◻️ **First navigate to path `/etc/grub.d/`**
@@ -119,12 +119,12 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
   sudo grub2-mkconfig -o /boot/grub2/grub.cfg
   ```
 ***
-## 🛠 [Creating a custom Menu layout](https://github.com/vandalsoul/grub-tweaks#-topics)
+## 🛠 [Creating a custom Menu layout](https://github.com/VandalByte/grub-tweaks#-topics)
 
 > **🔸 WARNING 🔸** *This section edits crucial GRUB files, relies on a lot of reading, exact copying, and can involve some guesswork. It can leave your GRUB menu completely unusuable if performed incorrectly. Make backups of all files involved, and take great care when performing these actions!*
 
 <p align="left">
-  <img width=80% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/custom-grub.png" alt="img" />
+  <img width=80% src="https://raw.githubusercontent.com/VandalByte/grub-tweaks/main/media/custom-grub.png" alt="img" />
 </p>
 
 ◻️ **Navigate to `/boot/grub/` and open the `grub.cfg` file. You will need root permissions to do this.**
@@ -134,7 +134,7 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 ◻️ **Scroll up until you reach the header for the section the menuentry is in. It'll likely say `### BEGIN /etc/grub.d/10_linux ###` or something similar. Make sure you copy any lines between this header and the start of the menuentries. These are important initialisation lines for GRUB. Paste them into your text editor before the menuentry you pasted earlier. For example, my file now looks like this:**
 
 <p align="left">
-  <img width=50% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/custom-grub-example.png" alt="img" />
+  <img width=50% src="https://raw.githubusercontent.com/VandalByte/grub-tweaks/main/media/custom-grub-example.png" alt="img" />
 </p>
 
 ◻️ **Continue to scroll down the `grub.cfg` file and copy any further menuentries you want to appear, arranging them in the order you want in your text file. If you copy a Submenu ( Such as `Advanced Options for Ubuntu` ), make sure you copy every menuentry listed beneath it. Watch the Curly braces carefully, as missing one can break the whole config.**
@@ -180,7 +180,7 @@ menuentry "Kubuntu" --class kubuntu --class gnu-linux --class gnu --class os$men
   ```
 
 ***
-## 🐲 [Setting up GRUB theme in Kali Linux](https://github.com/vandalsoul/grub-tweaks#-topics)
+## 🐲 [Setting up GRUB theme in Kali Linux](https://github.com/VandalByte/grub-tweaks#-topics)
 
 ◻️ **First copy your GRUB theme folder into `/boot/grub/themes/`**
 
@@ -200,7 +200,7 @@ GRUB_THEME="/boot/grub/themes/YOUR-THEME-DIR/theme.txt"
 sudo update-grub
 ```
 ***
-## 🎩 [Fix for GRUB theme not showing up](https://github.com/vandalsoul/grub-tweaks#-topics) ( Fedora, Ubuntu )
+## 🎩 [Fix for GRUB theme not showing up](https://github.com/VandalByte/grub-tweaks#-topics) ( Fedora, Ubuntu )
 
 ◻️ **Edit the GRUB config file `/etc/default/grub`**
 ```shell
@@ -225,13 +225,13 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
   sudo grub2-mkconfig -o /boot/grub2/grub.cfg
   ```
 ***
-## 🎶 [Setting up GRUB init tunes](https://github.com/vandalsoul/grub-tweaks#-topics)
+## 🎶 [Setting up GRUB init tunes](https://github.com/VandalByte/grub-tweaks#-topics)
 
 ◻️ **Edit the GRUB config file `/etc/default/grub`**
 
 ◻️ **Uncomment the line `#GRUB_INIT_TUNE="480 440 1"`**
 
-◻️ **Now if you want you can keep the default tune or else use one from the [CHEATSHEET](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md)**
+◻️ **Now if you want you can keep the default tune or else use one from the [CHEATSHEET](https://github.com/VandalByte/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md)**
 
 > 📢 *Just remember, longer the tune longer the boot time*
 
@@ -247,7 +247,7 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
   sudo grub2-mkconfig -o /boot/grub2/grub.cfg
   ```
 ***
-## 💿 [Restoring a broken GRUB install](https://github.com/vandalsoul/grub-tweaks#-topics)
+## 💿 [Restoring a broken GRUB install](https://github.com/VandalByte/grub-tweaks#-topics)
   
 > **🔹 NOTE 🔹** *If you have somehow managed to break your GRUB installation, have lost your grub.d files, or just want to reinstall GRUB to start again from a fresh installation, this program will fully reinstall GRUB with all default settings.*
 
@@ -259,14 +259,14 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
 
 ◻️ **In the Boot Repair window, click the `Advanced Options` text in the corner. Make sure `Reinstall GRUB` is ticked ✅, then move to the `GRUB Options` tab and tick ✅ the `Purge GRUB before reinstalling it` option.**
 
-<img width=50% src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/reinstall-grub.png" alt="img" />
+<img width=50% src="https://raw.githubusercontent.com/VandalByte/grub-tweaks/main/media/reinstall-grub.png" alt="img" />
 
 ◻️ **Apply your changes, let the tool run, and it should pop up a window with a few terminal commands to run. Press `CTRL + ALT + T` to open a terminal, copy the first command from the window, and paste it in with `CTRL + SHIFT + V`. Run each command in sequence like this and click continue when you have finished. GRUB will now be reinstalled.**
 
 ◻️ **Reboot your system and you will now have a completely default GRUB installation again.**
 ***
 
-## ✒️ [Creating custom fonts (.pf2) for GRUB](https://github.com/vandalsoul/grub-tweaks#-topics)
+## ✒️ [Creating custom fonts (.pf2) for GRUB](https://github.com/VandalByte/grub-tweaks#-topics)
 
 ◻️ **To convert an OpenTypeFont (otf) to TrueTypeFont (ttf) you can use [otf2ttf](https://github.com/awesometoolbox/otf2ttf)**
 
@@ -278,7 +278,7 @@ grub2-mkfont -s FONT_SIZE -o OUTPUT_FILE.pf2 INPUT_FILE.ttf
 > **Example usage : `grub2-mkfont -s 24 -o ./open-sans-24.pf2 ./open-sans-regular.ttf`**
 ***
 
-## 🧪 [Testing your GRUB themes](https://github.com/vandalsoul/grub-tweaks#-topics)
+## 🧪 [Testing your GRUB themes](https://github.com/VandalByte/grub-tweaks#-topics)
 
 **[grub2-theme-preview](https://github.com/hartwork/grub2-theme-preview) is a very handy tool to test your new grub theme without having to reboot or create a vm every time you make a change.**
 
@@ -301,8 +301,10 @@ pip3 install --user grub2-theme-preview
 
 ***
 
-## 🔒 [Setting up password for GRUB](https://github.com/vandalsoul/grub-tweaks#-topics)
+## 🔒 [Setting up password for GRUB](https://github.com/VandalByte/grub-tweaks#-topics)
 *Writing soon...*
 
-## 🚀 [Speed up GRUB booting time](https://github.com/vandalsoul/grub-tweaks#-topics)
+***
+
+## 🚀 [Speed up GRUB booting time](https://github.com/VandalByte/grub-tweaks#-topics)
 *Writing soon...*
