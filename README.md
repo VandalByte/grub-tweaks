@@ -1,9 +1,5 @@
 ![logo](/media/banner.png)
 
-<p align="left">
-  <img width="110%" src="https://raw.githubusercontent.com/VandalByte/grub-tweaks/main/media/side-note.png" alt="img" />
-</p>
-
 # 📚 Topics
 
 - 🖥️ [**Setting GRUB display resolution**](https://github.com/VandalByte/grub-tweaks#%EF%B8%8F-setting-grub-display-resolution)
