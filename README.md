@@ -1,4 +1,6 @@
-![logo](/media/banner.png)
+<p align="center">
+  <img width=80% src="https://raw.githubusercontent.com/VandalByte/grub-tweaks/main/media/banner.png" alt="banner" />
+</p>
 
 # 📚 Topics
 
