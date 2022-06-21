@@ -295,6 +295,6 @@ pip3 install --user grub2-theme-preview
 
 <br>
 
-> **Example usage : `grub2-theme-preview --resolution=1920x1080 /path/to/my/theme`**
+> **Example usage : `grub2-theme-preview --resolution=1920x1080 /path/to/my/theme-dir`**
 
-*If some error shows up try using the command with `--no-kvm` flag*
+*If some error/nothing shows up try using the command with `--no-kvm` flag*
