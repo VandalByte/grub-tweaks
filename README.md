@@ -295,7 +295,9 @@ pip3 install grub2-theme-preview
 ```
 grub2-theme-preview /path/to/my/theme-dir
 ```
-*If some error shows up try using the command with `--no-kvm` flag*
+> If some error shows up try using the command with `--no-kvm` flag
+
+**You can visit the project's [homepage](https://github.com/hartwork/grub2-theme-preview) for more info.**
 
 ***
 
