@@ -283,12 +283,10 @@ grub2-mkfont -s FONT_SIZE -o OUTPUT_FILE.pf2 INPUT_FILE.ttf
 > It takes a theme folder (or just a single picture), creates a temporary bootable image using grub2-mkrescue and launches that image in a virtual machine using KVM/QEMU, all without root privileges."
 
 ◻️ **Prerequisites**
-  - grub-mkrescue
-  - QEMU
-  - OVMF
-  - xorriso
-  - python3
-  - python3-pip
+- **For DEBIAN based systems:**
+```
+sudo apt install grub-common ovmf xorriso qemu qemu-system qemu-system-common python3 python3-pip
+```
 
 ◻️ **Installation**
 ```
