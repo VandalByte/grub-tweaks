@@ -282,20 +282,20 @@ grub2-mkfont -s FONT_SIZE -o OUTPUT_FILE.pf2 INPUT_FILE.ttf
 
 > **🔹 NOTE 🔹** *It takes a theme folder (or just a single picture), creates a temporary bootable image using grub2-mkrescue and launches that image in a virtual machine using KVM/QEMU, all without root privileges.*
 
-◻️ **Prerequisites**
-- **For DEBIAN based systems:**
+**◻️ First, install the prerequisites :**
+- **For Debian**
 ```
-sudo apt install grub-common ovmf xorriso qemu qemu-system qemu-system-common python3 python3-pip
+sudo apt install grub-common ovmf xorriso qemu qemu-system mtools python3 python3-pip
 ```
-
-◻️ **Installation**
+**◻️ Now use pip to install it :**
 ```
-pip3 install --user grub2-theme-preview
+pip3 install grub2-theme-preview
 ```
 ◻️ **Usage**
-
-*If some error/nothing shows up try using the command with `--no-kvm` flag*
-> **Example usage : `grub2-theme-preview --resolution=1920x1080 /path/to/my/theme-dir`**
+```
+grub2-theme-preview /path/to/my/theme-dir
+```
+*If some error shows up try using the command with `--no-kvm` flag*
 
 ***
 
