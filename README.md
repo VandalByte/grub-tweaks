@@ -26,7 +26,7 @@
 xdpyinfo | awk '/dimensions/{print $2}'
 ```
  
-◻️ **Open the file `/etc/default/grub` and edit the line `GRUB_GFXMODE=[height]x[width]x32` to match your resolution**
+◻️ **Open the file `/etc/default/grub` and edit the line `GRUB_GFXMODE=[width]x[height]x32` to match your resolution**
 
 ◻️ **Finally, update your grub config file**
 - **Debian ⛔ Ubuntu ⛔ Arch**
