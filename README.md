@@ -29,14 +29,13 @@ xdpyinfo | awk '/dimensions/{print $2}'
 ◻️ **Open the file `/etc/default/grub` and edit the line `GRUB_GFXMODE=[width]x[height]x32` to match your resolution**
 
 ◻️ **Finally, update your grub config file**
-- **Debian ⛔ Ubuntu ⛔ Arch**
-  ```shell
-  sudo grub-mkconfig -o /boot/grub/grub.cfg
-  ```
-- **Fedora ⛔ Redhat**
-  ```shell
-  sudo grub2-mkconfig -o /boot/grub2/grub.cfg
-  ```
+```shell
+# Debian ⛔ Ubuntu ⛔ Arch
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+# Fedora ⛔ Redhat
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+```
 ***
 ## 🖌️ [Using a custom background](https://github.com/VandalByte/grub-tweaks#-topics)
 
@@ -108,14 +107,13 @@ menuentry --class memtest "Memory Test (64-bit UEFI)" {
 <br>
 
 ◻️ **Finally, update your grub config file**
-- **Debian ⛔ Ubuntu ⛔ Arch**
-  ```shell
-  sudo grub-mkconfig -o /boot/grub/grub.cfg
-  ```
-- **Fedora ⛔ Redhat**
-  ```shell
-  sudo grub2-mkconfig -o /boot/grub2/grub.cfg
-  ```
+```shell
+# Debian ⛔ Ubuntu ⛔ Arch
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+# Fedora ⛔ Redhat
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+```
 ***
 ## 🛠 [Creating a custom Menu layout](https://github.com/VandalByte/grub-tweaks#-topics)
 
@@ -148,14 +146,13 @@ menuentry "Kubuntu" --class kubuntu --class gnu-linux --class gnu --class os$men
 ```
 
 ◻️ **When all your customizations are complete, navigate to `/etc/grub.d/` and edit the file `40_custom`. As the Comment mentions, paste your custom menu layout beneath it, taking care not to edit anything above it. Update your GRUB config with the command**
-- **Debian ⛔ Ubuntu ⛔ Arch**
-  ```shell
-  sudo grub-mkconfig -o /boot/grub/grub.cfg
-  ```
-- **Fedora ⛔ Redhat**
-  ```shell
-  sudo grub2-mkconfig -o /boot/grub2/grub.cfg
-  ```
+```shell
+# Debian ⛔ Ubuntu ⛔ Arch
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+# Fedora ⛔ Redhat
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+```
 **And watch for any errors. If there are, you have copied something incorrectly.**
 
 ◻️ **Restart your computer, and GRUB should now display your custom menu options beneath the default ones. Select each of your custom options and reboot after they load to make certain they all work correctly. ( *Failing to check this can result in your GRUB Menu becoming completely useless after the next step* )**
@@ -214,14 +211,13 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
 ```
 
 ◻️ **Finally, save the file and update your grub config file**
-- **Debian ⛔ Ubuntu ⛔ Arch**
-  ```shell
-  sudo grub-mkconfig -o /boot/grub/grub.cfg
-  ```
-- **Fedora ⛔ Redhat**
-  ```shell
-  sudo grub2-mkconfig -o /boot/grub2/grub.cfg
-  ```
+```shell
+# Debian ⛔ Ubuntu ⛔ Arch
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+# Fedora ⛔ Redhat
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+```
 ***
 ## 🎶 [Setting up GRUB init tunes](https://github.com/VandalByte/grub-tweaks#-topics)
 
@@ -236,14 +232,13 @@ GRUB_ENABLE_BLSCFG=true   ㅤㅤ-->ㅤ GRUB_ENABLE_BLSCFG=false
 > 📢 *Music composers are also welcome to contribute in the cheatsheet*
 
 ◻️ **Finally, update your grub config file**
-- **Debian ⛔ Ubuntu ⛔ Arch**
-  ```shell
-  sudo grub-mkconfig -o /boot/grub/grub.cfg
-  ```
-- **Fedora ⛔ Redhat**
-  ```shell
-  sudo grub2-mkconfig -o /boot/grub2/grub.cfg
-  ```
+```shell
+# Debian ⛔ Ubuntu ⛔ Arch
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+# Fedora ⛔ Redhat
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+```
 ***
 ## 💿 [Restoring a broken GRUB install](https://github.com/VandalByte/grub-tweaks#-topics)
   
