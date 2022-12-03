@@ -173,6 +173,7 @@ sudo grub2-mkconfig -o /boot/grub2/grub.cfg
   sudo touch /etc/grub.d/40_custom
   sudo chmod +x /etc/grub.d/40_custom
   ```
+> **`40_custom` file example for Linux Mint by @Axellarator can be found [here](https://github.com/VandalByte/grub-tweaks/issues/14)**
 
 ***
 ## 🐲 [Setting up GRUB theme in Kali Linux](https://github.com/VandalByte/grub-tweaks#-topics)
