@@ -71,9 +71,16 @@ tempo freq duration [freq duration freq duration...]
 304 55 5 0 1 55 1 62 1 65 2 62 1 55 1 49 1 55 1 62 2 41 8
 ```
 
-### 🎵 The Final Countdown ([source](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Play_a_tune))
+### 🎵 The Final Countdown
+
+#### 🎼 *short* ([source](https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Play_a_tune))
 ```
 480 554 1 494 1 554 4 370 6 10 3 587 1 554 1 587 2 554 2 494 6
+```
+
+####  🎼 *long* ([source](https://twitter.com/blanknam3d/status/1607698536099110912))
+```
+480 370 6 554 1 494 1 554 4 370 4 415 6 587 1 554 1 587 1 0 1 554 1 0 1 494 4 415 6 554 1 494 1 554 4 415 4 370 6 494 1 440 1 494 1 0 1 440 1 0 1 415 1 0 1 494 1 0 1 440 6 554 1 494 1 554 4 370 4 415 6 587 1 554 1 587 1 0 1 554 1 0 1 494 4 415 6 587 1 554 1 587 4 415 4 370 6 494 1 440 1 494 2 440 2 415 2 494 2 440 6 415 1 440 1 494 6 440 1 494 1 554 1 0 1 494 1 0 1 440 1 0 1 415 1 0 1 370 4 587 4 554 12 587 2 554 1 494 1 554 12
 ```
 ***
 <p align="left">
