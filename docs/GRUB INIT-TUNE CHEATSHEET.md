@@ -18,6 +18,7 @@ tempo freq duration [freq duration freq duration...]
 - 🎤 [**Still DRE**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-still-dre-source) by ***Dr.Dre (ft. Snoop Dogg)***
 - 🎤 [**The Chain**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-the-chain-source) by ***Fleetwood Mac***
 - 🎤 [**The Final Countdown**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-the-final-countdown-source) by ***Europe***
+- 🎤 [**Never Gonna Give You Up**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-never-gonna-give-you-up-source) by ***Rick Astley***
 
 ### 🎵 Tunes from Creators
 - 🎤 [**Adams's tune**](https://github.com/vandalsoul/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md#-adamss-tune-source)
@@ -82,6 +83,19 @@ tempo freq duration [freq duration freq duration...]
 ```
 480 370 6 554 1 494 1 554 4 370 4 415 6 587 1 554 1 587 1 0 1 554 1 0 1 494 4 415 6 554 1 494 1 554 4 415 4 370 6 494 1 440 1 494 1 0 1 440 1 0 1 415 1 0 1 494 1 0 1 440 6 554 1 494 1 554 4 370 4 415 6 587 1 554 1 587 1 0 1 554 1 0 1 494 4 415 6 587 1 554 1 587 4 415 4 370 6 494 1 440 1 494 2 440 2 415 2 494 2 440 6 415 1 440 1 494 6 440 1 494 1 554 1 0 1 494 1 0 1 440 1 0 1 415 1 0 1 370 4 587 4 554 12 587 2 554 1 494 1 554 12
 ```
+
+### 🎵 Never Gonna Give You Up
+
+####  🎼 *short*
+```
+57600 0 240 208 119 0 1 233 119 0 1 277 119 0 1 233 119 0 1 349 359 0 121 349 239 0 1 311 719 0 1 208 119 0 1 233 119 0 1 277 119 0 1 233 119 0 1 311 359 0 121 311 239 0 1 277 359 0 1 262 119 0 1 233 239 0 1 208 119 0 1 233 119 0 1 277 119 0 1 233 119 0 1 277 479 0 1 311 239 0 1 262 359 0 1 233 119 0 1 208 239 0 1 208 239 0 1 311 719 0 1 277 719
+```
+
+####  🎼 *long*
+```
+57600 0 240 208 119 0 1 233 119 0 1 277 119 0 1 233 119 0 1 349 359 0 121 349 239 0 1 311 719 0 1 208 119 0 1 233 119 0 1 277 119 0 1 233 119 0 1 311 359 0 121 311 239 0 1 277 359 0 1 262 119 0 1 233 239 0 1 208 119 0 1 233 119 0 1 277 119 0 1 233 119 0 1 277 479 0 1 311 239 0 1 262 359 0 1 233 119 0 1 208 239 0 1 208 239 0 1 311 719 0 1 277 959 0 1 208 119 0 1 233 119 0 1 277 119 0 1 233 119 0 1 349 359 0 121 349 239 0 1 311 719 0 1 208 119 0 1 233 119 0 1 277 119 0 1 233 119 0 1 415 479 0 1 262 239 0 1 277 359 0 1 262 119 0 1 233 239 0 1 208 119 0 1 233 119 0 1 277 119 0 1 233 119 0 1 277 479 0 1 311 239 0 1 262 359 0 1 233 119 0 1 208 479 0 1 208 239 0 1 311 479 0 1 277 1199
+```
+
 ***
 <p align="left">
   <img width="50%" src="https://raw.githubusercontent.com/vandalsoul/grub-tweaks/main/media/tunes-2.png" />
