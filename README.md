@@ -12,7 +12,7 @@
 - 🎩 [**Fix for GRUB theme not showing up**](https://github.com/VandalByte/grub-tweaks#-fix-for-grub-theme-not-showing-up--fedora-ubuntu-) **( Fedora, Ubuntu )**
 - 🎶 [**Setting up GRUB init tunes**](https://github.com/VandalByte/grub-tweaks#-setting-up-grub-init-tunes) ㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Mage102**
 - 💿 [**Restoring a broken GRUB install**](https://github.com/VandalByte/grub-tweaks#-restoring-a-broken-grub-install) ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Jacksaur**
-- ✒️ [**Creating custom fonts (.pf2) for GRUB**](https://github.com/VandalByte/grub-tweaks#-creating-custom-fonts-pf2-for-grub)
+- ✒️ [**Creating custom fonts (.pf2) for GRUB**](https://github.com/VandalByte/grub-tweaks?tab=readme-ov-file#%EF%B8%8F-creating-custom-fonts-pf2-for-grub)
 - 🧪 [**Testing your GRUB themes**](https://github.com/VandalByte/grub-tweaks#-testing-your-grub-themes) ㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @jon4hz**
 - 🔒 [**Setting up password for GRUB**](https://github.com/VandalByte/grub-tweaks#-setting-up-password-for-grub) ㅤㅤ *Writing soon...*
 - 🚀 [**Speed up GRUB booting time**](https://github.com/VandalByte/grub-tweaks#-speed-up-grub-booting-time) ㅤㅤ  *Writing soon...*
@@ -266,10 +266,29 @@ sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 
 ◻️ **The .pf2 file is the one used by GRUB, so to convert .ttf to .pf2 use**
 ```shell
-grub2-mkfont -s FONT_SIZE -o OUTPUT_FILE.pf2 INPUT_FILE.ttf
+grub2-mkfont -s FONT_SIZE -o OUTPUT_FILE.pf2 INPUT_FILE.ttf --verbose
+```
+`--verbose` flag will give you the font name that is required to be put in the grub theme file as it has nothing to do with the filename
+
+**Example usage : `grub2-mkfont -s 30 -o ./DejaVuSansMono30.pf2 ./DejaVuSans.ttf`**
+
+This will give you something like this:
+```shell
+Font name: DejaVu Sans Regular 30
+Max width: 48
+Max height: 39
+Font ascent: 33
+Font descent: 12
+Number of glyph: 6288
 ```
 
-> **Example usage : `grub2-mkfont -s 24 -o ./open-sans-24.pf2 ./open-sans-regular.ttf`**
+Now the *Font Name* given here is the one you should use in the theme.txt file
+```shell
++ boot_menu {
+    ....
+    item_font = "DejaVu Sans Regular 30"
+```
+
 ***
 
 ## 🧪 [Testing your GRUB themes](https://github.com/VandalByte/grub-tweaks#-topics)
@@ -305,9 +324,57 @@ grub2-theme-preview /path/to/my/theme-dir
 ***
 
 ## 🔒 [Setting up password for GRUB](https://github.com/VandalByte/grub-tweaks#-topics)
-*Writing soon...*
+◻️ **First we need to generate an encrypted password using the following command**
+```shell
+grub-mkpasswd-pbkdf2
+```
+You will be prompted to enter and confirm your password. After confirmation, the command will generate an encrypted string, now copy that string.
+
+◻️ **Now edit the GRUB config file `/etc/default/grub`**
+```shell
+sudo nano /etc/default/grub
+```
+◻️ **Find the below line and change it like shown below**
+```shell
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+```
+**Now add this line in the file**
+> Replace *EncryptedPassword* with your copied string
+```shell
+GRUB_CMDLINE_LINUX="password_pbkdf2 EncryptedPassword"
+```
+
+◻️ **Finally, save the file and update your grub config file**
+```shell
+# Debian ⛔ Ubuntu ⛔ Arch
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+# Fedora ⛔ Redhat
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+```
 
 ***
 
 ## 🚀 [Speed up GRUB booting time](https://github.com/VandalByte/grub-tweaks#-topics)
-*Writing soon...*
+◻️ **Edit the GRUB config file `/etc/default/grub`**
+```shell
+sudo nano /etc/default/grub
+```
+◻️ **Change the lines below as shown**
+> GRUB_HIDDEN_TIMEOUT might not be there if it's there change it also
+```
+GRUB_TIMEOUT=0
+
+GRUB_HIDDEN_TIMEOUT=0
+```
+
+◻️ **Finally, save the file and update your grub config file**
+```shell
+# Debian ⛔ Ubuntu ⛔ Arch
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+# Fedora ⛔ Redhat
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+```
+**Now you won't see your grub menu, you will be directly booted into the OS, don't use it if you have dual booted your system as it will boot into the first one on the list by itself without giving you time to switch**
+***
