@@ -14,8 +14,8 @@
 - 💿 [**Restoring a broken GRUB install**](https://github.com/VandalByte/grub-tweaks#-restoring-a-broken-grub-install) ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @Jacksaur**
 - ✒️ [**Creating custom fonts (.pf2) for GRUB**](https://github.com/VandalByte/grub-tweaks?tab=readme-ov-file#%EF%B8%8F-creating-custom-fonts-pf2-for-grub)
 - 🧪 [**Testing your GRUB themes**](https://github.com/VandalByte/grub-tweaks#-testing-your-grub-themes) ㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤ**💖 By ~ @jon4hz**
-- 🔒 [**Setting up password for GRUB**](https://github.com/VandalByte/grub-tweaks#-setting-up-password-for-grub) ㅤㅤ *Writing soon...*
-- 🚀 [**Speed up GRUB booting time**](https://github.com/VandalByte/grub-tweaks#-speed-up-grub-booting-time) ㅤㅤ  *Writing soon...*
+- 🔒 [**Setting up password for GRUB**](https://github.com/VandalByte/grub-tweaks#-setting-up-password-for-grub)
+- 🚀 [**Speed up GRUB booting time**](https://github.com/VandalByte/grub-tweaks#-speed-up-grub-booting-time)
 
 
 ***
