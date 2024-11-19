@@ -300,7 +300,7 @@ Now the *Font Name* given here is the one you should use in the theme.txt file
 **◻️ First, install the prerequisites :**
 ```bash
 # for Debian / Ubuntu
-sudo apt install grub-common ovmf xorriso qemu qemu-system mtools python3 python3-pip
+sudo apt install grub-common ovmf xorriso qemu-system mtools python3 python3-pip
 
 # for Arch
 sudo pacman -S grub-common ovmf xorriso qemu-full mtools python python-pip
