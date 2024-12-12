@@ -55,9 +55,11 @@ sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 ***
 ## 🔮 [Adding icons for Submenus](https://github.com/VandalByte/grub-tweaks#-topics)
 
-> **🔹 NOTE 🔹** *Make sure to make a backup of the following files just to be on the safe side* 😶
-  
-> **🔹 NOTE 🔹** *This section will not work if you have used GRUB Customizer at all, as it changes around the files used here. You will need to uninstall GRUB Customizer and restore your original grub.d files to follow the instructions here.*
+> [!IMPORTANT]
+> Make sure to make a backup of the following files just to be on the safe side
+
+> [!NOTE]
+> This section will not work if you have used GRUB Customizer at all, as it changes around the files used here. You will need to uninstall GRUB Customizer and restore your original grub.d files to follow the instructions here.
 
 <p align="left">
   <img width=80% src="https://raw.githubusercontent.com/VandalByte/grub-tweaks/main/media/submenu.png" alt="img" />
@@ -117,7 +119,8 @@ sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 ***
 ## 🛠 [Creating a custom Menu layout](https://github.com/VandalByte/grub-tweaks#-topics)
 
-> **🔸 WARNING 🔸** *This section edits crucial GRUB files, relies on a lot of reading, exact copying, and can involve some guesswork. It can leave your GRUB menu completely unusuable if performed incorrectly. Make backups of all files involved, and take great care when performing these actions!*
+> [!WARNING]
+> This section edits crucial GRUB files, relies on a lot of reading, exact copying, and can involve some guess-work. It can leave your GRUB menu completely unusable if performed incorrectly. Make backups of all files involved, and take great care when performing these actions!
 
 <p align="left">
   <img width=80% src="https://raw.githubusercontent.com/VandalByte/grub-tweaks/main/media/custom-grub.png" alt="img" />
@@ -161,7 +164,8 @@ sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 
 
 
-> **🔸 WARNING 🔸** *`40_custom` will not update automatically! After each major update to your Distro, you may experience problems if you continue to use the old launch commands tied to your custom menu. Especially if the update changes your distro's kernel version. See below on how to handle updates properly.*
+> [!IMPORTANT]
+> `40_custom` will not update automatically! After each major update to your Distro, you may experience problems if you continue to use the old launch commands tied to your custom menu. Especially if the update changes your distro's kernel version. See below on how to handle updates properly.
 
 ◻️ **Before Upgrading your Distro, copy your `40_custom` file to somewhere outside of the system files, to ensure it's safe. During your Upgrade, if the program asks for permission to edit any GRUB files, allow it every time.**
 
@@ -173,7 +177,8 @@ sudo grub2-mkconfig -o /boot/grub2/grub.cfg
   sudo touch /etc/grub.d/40_custom
   sudo chmod +x /etc/grub.d/40_custom
   ```
-> **`40_custom` file example for Linux Mint by @Axellarator can be found [here](https://github.com/VandalByte/grub-tweaks/issues/14)**
+> [!TIP]
+> `40_custom` file example for Linux Mint by @Axellarator can be found [here](https://github.com/VandalByte/grub-tweaks/issues/14)
 
 ***
 ## 🐲 [Setting up GRUB theme in Kali Linux](https://github.com/VandalByte/grub-tweaks#-topics)
@@ -228,9 +233,8 @@ sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 
 ◻️ **Now if you want you can keep the default tune or else use one from the [CHEATSHEET](https://github.com/VandalByte/grub-tweaks/blob/main/docs/GRUB%20INIT-TUNE%20CHEATSHEET.md)**
 
-> 📢 *Just remember, longer the tune longer the boot time*
-
-> 📢 *Music composers are also welcome to contribute in the cheatsheet*
+> [!NOTE]
+> Just remember, longer the tune longer the boot time
 
 ◻️ **Finally, update your grub config file**
 ```shell
@@ -243,7 +247,8 @@ sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 ***
 ## 💿 [Restoring a broken GRUB install](https://github.com/VandalByte/grub-tweaks#-topics)
   
-> **🔹 NOTE 🔹** *If you have somehow managed to break your GRUB installation, have lost your grub.d files, or just want to reinstall GRUB to start again from a fresh installation, this program will fully reinstall GRUB with all default settings.*
+> [!NOTE]
+> If you have somehow managed to break your GRUB installation, have lost your grub.d files, or just want to reinstall GRUB to start again from a fresh installation, this program will fully reinstall GRUB with all default settings.
 
 ◻️ **Backup anything from GRUB you still want to save. This includes themes and any remaining edited grub.d files. Everything inside your grub folders will be deleted.**
 
@@ -293,9 +298,10 @@ Now the *Font Name* given here is the one you should use in the theme.txt file
 
 ## 🧪 [Testing your GRUB themes](https://github.com/VandalByte/grub-tweaks#-topics)
 
-**[grub2-theme-preview](https://github.com/hartwork/grub2-theme-preview) is a very handy tool to test your new grub theme without having to reboot or create a vm every time you make a change.**
+**The [grub2-theme-preview](https://github.com/hartwork/grub2-theme-preview) is a very handy tool to test your new grub theme without having to reboot or create a vm every time you make a change.**
 
-> **🔹 NOTE 🔹** *It takes a theme folder (or just a single picture), creates a temporary bootable image using grub2-mkrescue and launches that image in a virtual machine using KVM/QEMU, all without root privileges.*
+> [!NOTE]
+> It takes a theme folder (or just a single picture), creates a temporary bootable image using grub2-mkrescue and launches that image in a virtual machine using KVM/QEMU, all without root privileges.
 
 **◻️ First, install the prerequisites :**
 ```bash
@@ -317,7 +323,7 @@ pip install grub2-theme-preview
 ```
 grub2-theme-preview /path/to/my/theme-dir
 ```
-> If some error shows up try using the command with `--no-kvm` flag
+If some error shows up try using the command with `--no-kvm` flag
 
 **You can visit the project's [homepage](https://github.com/hartwork/grub2-theme-preview) for more info.**
 
@@ -339,7 +345,7 @@ sudo nano /etc/default/grub
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 ```
 **Now add this line in the file**
-> Replace *EncryptedPassword* with your copied string
+Replace *EncryptedPassword* with your copied string
 ```shell
 GRUB_CMDLINE_LINUX="password_pbkdf2 EncryptedPassword"
 ```
@@ -361,7 +367,8 @@ sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 sudo nano /etc/default/grub
 ```
 ◻️ **Change the lines below as shown**
-> GRUB_HIDDEN_TIMEOUT might not be there if it's there change it also
+> [!NOTE]
+> `GRUB_HIDDEN_TIMEOUT` might not be there if it's there change it also
 ```
 GRUB_TIMEOUT=0
 
